@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_BALLISTA_NAME" Language="en_US">
+			<Text>Ballistra</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BALLISTA_DESCRIPTION" Language="en_US">
+			<Text>Macedonian unique Catapult replacement. +17 [ICON_Strength] versus non-District tiles and -10 [ICON_Strength] versus District tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACEDONIAN_HETAIROI_NAME" Language="en_US">
+			<Text>Hetairos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEZHETAIROS_NAME" Language="en_US">
+			<Text>Pezhetairos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEZHETAIROS_DESCRIPTION" Language="en_US">
+			<Text>Macedonian unique Spearman replacement. Stronger than Spearman and receives +10 [ICON_Strength] Combat Strength versus Melee units.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_WARSHIP_NAME" Language="en_US">
+			<Text>Phoenician Warship</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_WARSHIP_DESCRIPTION" Language="en_US">
+			<Text>Persian unique Naval unit. Replaces Galley. +5 [ICON_Strength] Combat Strength when attacking. Also gives +5 [ICON_Strength] Combat Strength to adjacent land units and +2 movement if they start their turn in an adjacent tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPHRACT_NAME" Language="en_US">
+			<Text>Cataphract</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPHRACT_DESCRIPTION" Language="en_US">
+			<Text>Persian unique Classical era heavy cavalry unit.</Text>
+		</Replace>
+		<Replace Tag="PLUS_7_WHEN_ATTACKING_NON_DISTRICT_BONUS_DESC" Language="en_US">
+			<Text>+17 [ICON_Strength] Combat Strength versus non-District tiles.</Text>
+		</Replace>
+		<Replace Tag="MINUS_7_WHEN_ATTACKING_DISTRICT_MALUS_DESC" Language="en_US">
+			<Text>-10 [ICON_Strength] Combat Strength versus District tiles.</Text>
+		</Replace>
+		<Replace Tag="PLUS_10_VERSUS_MELEE_COMBAT_BONUS_DESC" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength versus Melee units.</Text>
+		</Replace>
+		<Replace Tag="RECEIVE_PERSIAN_WARSHIP_COMBAT_STRENGTH_BONUS_DESC" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from adjacent Royal Warship.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
+		

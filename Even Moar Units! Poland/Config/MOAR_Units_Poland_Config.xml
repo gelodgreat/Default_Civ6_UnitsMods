@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<PlayerItems>
+		<Row CivilizationType="CIVILIZATION_POLAND" LeaderType="LEADER_JADWIGA" Type="UNIT_CHOSEN_INFANTRY" Icon="ICON_UNIT_CHOSEN_INFANTRY" Name="LOC_UNIT_CHOSEN_INFANTRY_NAME" Description="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" SortIndex="11"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" LeaderType="LEADER_JADWIGA" Type="UNIT_UHLAN" Icon="ICON_UNIT_UHLAN" Name="LOC_UNIT_UHLAN_NAME" Description="LOC_UNIT_UHLAN_DESCRIPTION" SortIndex="12"/>
+	</PlayerItems>
+</GameInfo>

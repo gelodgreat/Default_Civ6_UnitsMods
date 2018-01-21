@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_WOOMERA" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SASR" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_WOOMERA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_SASR" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_WOOMERA" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SASR" Kind="KIND_ABILITY"/>
+	</Types>
+	<Units>
+		<Row UnitType="UNIT_WOOMERA" BaseMoves="2" Cost="35" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
+			 ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 Name="LOC_UNIT_WOOMERA_NAME" Description="LOC_UNIT_WOOMERA_DESCRIPTION" PurchaseYield="YIELD_GOLD"
+			 PromotionClass="PROMOTION_CLASS_HUNTER" Combat="5" MandatoryObsoleteTech="TECH_MACHINERY" RangedCombat="15" Range="2"
+			 TraitType="TRAIT_CIVILIZATION_UNIT_WOOMERA" InitialLevel="2"/>
+
+		<Row UnitType="UNIT_SASR" BaseMoves="4" Cost="650" AdvisorType="ADVISOR_CONQUEST"
+			 BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 Name="LOC_UNIT_SASR_NAME" Description="LOC_UNIT_SASR_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="8" Combat="91"
+			 PrereqTech="TECH_SATELLITES" TraitType="TRAIT_CIVILIZATION_UNIT_SASR"/>
+	</Units>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_AUSTRALIA" TraitType="TRAIT_CIVILIZATION_UNIT_WOOMERA"/>
+		<Row CivilizationType="CIVILIZATION_AUSTRALIA" TraitType="TRAIT_CIVILIZATION_UNIT_SASR"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_WOOMERA" Name="LOC_UNIT_WOOMERA_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SASR" Name="LOC_UNIT_SASR_NAME"/>
+	</Traits>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_WOOMERA" ReplacesUnitType="UNIT_SLINGER"/>
+		<Row CivUniqueUnitType="UNIT_SASR" ReplacesUnitType="UNIT_MECHANIZED_INFANTRY"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row Unit="UNIT_WOOMERA" UpgradeUnit="UNIT_ARCHER"/>
+	</UnitUpgrades>
+	<UnitAIInfos>
+		<Row UnitType="UNIT_WOOMERA" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_WOOMERA" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_WOOMERA" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SASR" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SASR" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SASR" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SASR" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAIInfos>
+	<Tags>
+		<Row Tag="CLASS_WOOMERA" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SASR" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_WOOMERA" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_WOOMERA" Tag="CLASS_WOOMERA"/>
+		<Row Type="ABILITY_WOOMERA" Tag="CLASS_WOOMERA"/>
+		<Row Type="UNIT_SASR" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_SASR" Tag="CLASS_SASR"/>
+		<Row Type="ABILITY_SASR" Tag="CLASS_SASR"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_WOOMERA" Name="LOC_ABILITY_WOOMERA" Description="LOC_ABILITY_WOOMERA_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SASR" Name="LOC_ABILITY_SASR" Description="LOC_ABILITY_SASR_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_VOLLEY_HUNTER</UnitPromotionType>
+			<ModifierId>PLUS_5_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_SASR</UnitAbilityType>
+			<ModifierId>IGNOREZOC_IGNORE_ZOC</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SASR</UnitAbilityType>
+			<ModifierId>PLUS_5_DESERT_PLAINS_COMBAT_BONUS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>PLUS_5_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>NON_DISTRICT_REQUIREMENT_SET</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_5_DESERT_PLAINS_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_DESERT_OR_PLAINS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierStrings>
+		<Row ModifierId="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT" Context="Preview" Text="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC"/>
+		<Row ModifierId="PLUS_5_DESERT_PLAINS_COMBAT_BONUS" Context="Preview" Text="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC"/>
+	</ModifierStrings>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PLUS_5_COMBAT_STRENGTH_NON_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>NON_DISTRICT_REQUIREMENT_SET</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>NON_DISTRICT_REQUIREMENT_SET</RequirementSetId>
+			<RequirementId>PLOT_IS_NOT_DEFENDED_DISTRICT_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NON_DISTRICT_REQUIREMENT_SET</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>PLOT_IS_NOT_DEFENDED_DISTRICT_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_DISTRICT_IS_DEFENDED</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+</GameData>

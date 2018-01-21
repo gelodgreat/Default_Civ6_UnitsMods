@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+	  <!--名字·汉语-->
+	  <Replace Tag="LOC_UNIT_SHAOTAN_NAME" Language="zh_Hans_CN">
+		  <Text>哨探</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_BUSHOU_NAME" Language="zh_Hans_CN">
+		  <Text>夜不收</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HUBEN_NAME" Language="zh_Hans_CN">
+		  <Text>虎贲军</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_WEIWU_NAME" Language="zh_Hans_CN">
+		  <Text>魏武卒</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENJI_NAME" Language="zh_Hans_CN">
+		  <Text>神机营</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_YOUJI_NAME" Language="zh_Hans_CN">
+		  <Text>游击队</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JIEFANG_NAME" Language="zh_Hans_CN">
+		  <Text>人民解放军</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JIJI_NAME" Language="zh_Hans_CN">
+		  <Text>齐技击</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_MODAO_NAME" Language="zh_Hans_CN">
+		  <Text>陌刀队</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JUMP_NAME" Language="zh_Hans_CN">
+		  <Text>跳雷部队</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_RED_NAME" Language="zh_Hans_CN">
+		  <Text>红箭-12</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_QIWEN_NAME" Language="zh_Hans_CN">
+		  <Text>齐文骑</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_GUANNING_NAME" Language="zh_Hans_CN">
+		  <Text>关宁铁骑</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_WUZHI_NAME" Language="zh_Hans_CN">
+		  <Text>武直-10</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_TIEYE_NAME" Language="zh_Hans_CN">
+		  <Text>铁叶车</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_XUAN_NAME" Language="zh_Hans_CN">
+		  <Text>玄甲军</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_59TANK_NAME" Language="zh_Hans_CN">
+		  <Text>59式主战坦克</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_99ATANK_NAME" Language="zh_Hans_CN">
+		  <Text>99A式主战坦克</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SANGMU_NAME" Language="zh_Hans_CN">
+		  <Text>桑木漆弓</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_FANQU_NAME" Language="zh_Hans_CN">
+		  <Text>反曲角弓</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENBI_NAME" Language="zh_Hans_CN">
+		  <Text>神臂弩</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENWEI_NAME" Language="zh_Hans_CN">
+		  <Text>神威将军炮</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_M85_NAME" Language="zh_Hans_CN">
+		  <Text>85式重机枪</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_PILI_NAME" Language="zh_Hans_CN">
+		  <Text>轮转霹雳车</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HONGYI_NAME" Language="zh_Hans_CN">
+		  <Text>红夷大炮</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_ERPAO_NAME" Language="zh_Hans_CN">
+		  <Text>第二炮兵部队</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HUOJIANJUN_NAME" Language="zh_Hans_CN">
+		  <Text>火箭军部队</Text>
+	  </Replace>
+	  <!--描述·汉语-->
+	  <Replace Tag="LOC_UNIT_SHAOTAN_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国远古时代特色单位。替代斥候。与其他单位编组时，其他单位的移动力会增加到同等水平。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_BUSHOU_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国工业时代特色单位。替代侦察兵。劫掠消耗的 [ICON_Movement] 移动力减少2点。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HUBEN_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国远古时代特色单位。替代勇士。可进行农田建造或地貌清除（仅一次）。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_WEIWU_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国古典时代特色单位。替代剑客。 [ICON_Movement] 移动力允许的情况下可一回合攻击二次。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENJI_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国文艺复兴时期特色单位。替代火枪手。获得经验增加50%。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_YOUJI_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国现代特色单位。替代步兵。击败蛮族以外敌方单位时有几率将其转化为游击队。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JIEFANG_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国信息时代特色单位。替代机械化步兵。受伤后 [ICON_Strength] 战斗力不会降低。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JIJI_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国远古时代特色单位。替代矛兵。身处城区或要塞中时+10 [ICON_Strength] 战斗力。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_MODAO_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国中世纪特色单位。替代长枪兵。对抗骑兵单位时+17 [ICON_Strength] 战斗力（不包含反骑兵加成）。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JUMP_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国现代特色单位。替代反坦克兵。击败蛮族以外敌方单位时有几率将其转化为游击队。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_RED_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国信息时代特色单位。替代现代反坦克兵。受伤后 [ICON_Strength] 战斗力不会降低。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_QIWEN_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国古典时代特色单位。替代骑手。对抗近战单位时+10 [ICON_Strength] 战斗力。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_GUANNING_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国工业时代特色单位。替代近代骑兵。在敌对领土内开始回合+2 [ICON_Movement] 移动力。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_WUZHI_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国原子能时代特色单位。替代直升机。受伤后 [ICON_Strength] 战斗力不会降低。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_TIEYE_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国远古时代特色单位。替代战车。为占据相同地形的相邻单位提供双倍支援 [ICON_Strength] 战斗力。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_XUAN_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国中世纪特色单位。替代骑士。邻接大将军时+5 [ICON_Strength] 战斗力，消灭敌人时+5大将军点数。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_59TANK_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国现代时代特色单位。替代坦克。初始获得一个免费晋升。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_99ATANK_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国信息时代特色单位。替代现代装甲。受伤后 [ICON_Strength] 战斗力不会降低。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SANGMU_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国远古时代特色单位。替代投石兵。承受近战攻击时战斗力增加10。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_FANQU_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国远古时代特色单位。替代弓箭手。消灭敌方军事单位时获得等同于其50%战斗力的 [ICON_Culture] 文化。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENBI_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国中世纪特色单位。替代弩手。邻接或处于本国领土时，+1 [ICON_Range] 射程</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENWEI_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国工业时代特色单位。替代野战炮。临近友方【定位侦测】单位时+1 [ICON_Range] 射程</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_M85_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国原子能时代特色单位。替代机枪兵。受伤后 [ICON_Strength] 战斗力不会降低。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_PILI_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国古典时代特色单位。替代投石车。移动力允许的情况下可一回合攻击二次。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HONGYI_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国文艺复兴时期特色单位。替代臼炮。对抗身处城区的单位或城区本身时战斗力增加7。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_ERPAO_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国现代时代特色单位。替代炮兵。受伤后 [ICON_Strength] 战斗力不会降低。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HUOJIANJUN_DESCRIPTION" Language="zh_Hans_CN">
+		  <Text>中国信息时代特色单位。替代火箭炮。在一回合以内可同时移动或攻击。</Text>
+	  </Replace>
+	  <!--名字·英语-->
+	  <Replace Tag="LOC_UNIT_SHAOTAN_NAME" Language="en_US">
+		  <Text>Wangchi</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_BUSHOU_NAME" Language="en_US">
+		  <Text>Yebushou</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HUBEN_NAME" Language="en_US">
+		  <Text>Huben Warrior</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_WEIWU_NAME" Language="en_US">
+		  <Text>Weiwu Heavy Army</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENJI_NAME" Language="en_US">
+		  <Text>God's Force</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_YOUJI_NAME" Language="en_US">
+		  <Text>Guerrilla</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JIEFANG_NAME" Language="en_US">
+		  <Text>People's Liberation Army</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JIJI_NAME" Language="en_US">
+		  <Text>Qijiji</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_MODAO_NAME" Language="en_US">
+		  <Text>Modao Troop</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JUMP_NAME" Language="en_US">
+		  <Text>Bounding Mine Troop</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_RED_NAME" Language="en_US">
+		  <Text>HJ-12</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_QIWEN_NAME" Language="en_US">
+		  <Text>Qiwen Cavalry</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_GUANNING_NAME" Language="en_US">
+		  <Text>Guanning Cavalry</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_WUZHI_NAME" Language="en_US">
+		  <Text>CAIC Z-10</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_TIEYE_NAME" Language="en_US">
+		  <Text>Iron Chariot</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_XUAN_NAME" Language="en_US">
+		  <Text>Xuanjia Troop</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_59TANK_NAME" Language="en_US">
+		  <Text>WZ120</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_99ATANK_NAME" Language="en_US">
+		  <Text>99A Main Battle Tank</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SANGMU_NAME" Language="en_US">
+		  <Text>Sangmu Paint Bow</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_FANQU_NAME" Language="en_US">
+		  <Text>Recurve Horn Bow</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENBI_NAME" Language="en_US">
+		  <Text>God's Arm</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENWEI_NAME" Language="en_US">
+		  <Text>The Great General Cannon</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_M85_NAME" Language="en_US">
+		  <Text>T-85</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_PILI_NAME" Language="en_US">
+		  <Text>Lunzhuan Pili</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HONGYI_NAME" Language="en_US">
+		  <Text>Hongyipao</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_ERPAO_NAME" Language="en_US">
+		  <Text>Second Artillery Corps</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HUOJIANJUN_NAME" Language="en_US">
+		  <Text>People's Liberation Army Rocket Force</Text>
+	  </Replace>
+	  <!--描述·英语-->
+	  <Replace Tag="LOC_UNIT_SHAOTAN_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Ancient era unit that replaces the Scout.Formation units all inherit escort's [ICON_Movement] Movement speed.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_BUSHOU_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Industrial era unit that replaces the Scout.Pillaging costs only 1 [ICON_Movement] Movement point.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HUBEN_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Ancient era unit that replaces the Warrior.Can build a Farm (Only once).</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_WEIWU_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Classical era unit that replaces the Swordsman.+1 additional attack per turn if [ICON_Movement] Movement allows.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENJI_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Renaissance era unit that replaces the Musketman.Gains +50% experience.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_YOUJI_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Modern era unit that replaces the Infantry.May capture defeated enemies, turning them into Guerrilla for China.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JIEFANG_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Information era unit that replaces the Mechanized Infantry.Does not suffer combat penalties when damaged.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JIJI_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Ancient era unit that replaces the Spearman.+10 [ICON_Strength] Combat Strength when occupying a district or Fort.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_MODAO_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Medieval era unit that replaces the Pikeman.+17 [ICON_Strength] Combat Strength vs. cavalry units.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_JUMP_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Modern era unit that replaces the AT Crew.May capture defeated enemies, turning them into Guerrilla for China.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_RED_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Information era unit that replaces the Modern AT.Does not suffer combat penalties when damaged.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_QIWEN_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Classical era unit that replaces the Horseman.+10 [ICON_Strength] Combat Strength vs. melee units.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_GUANNING_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Industrial era unit that replaces the Cavalry.+2 [ICON_Movement] Movement if this unit starts in enemy territory.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_WUZHI_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Atomic era unit that replaces the Helicopter.Does not suffer combat penalties when damaged.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_TIEYE_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Ancient era unit that replaces the Heavy Chariot.Double Support bonus.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_XUAN_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Medieval era unit that replaces the Knight.Additional +5 [ICON_Strength] Combat Strength when adjacent to a Great General. +5 Great General points when killing an enemy unit.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_59TANK_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Modern era unit that replaces the Tank.Starts with 1 free Promotion.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_99ATANK_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Information era unit that replaces the Modren Armor.Does not suffer combat penalties when damaged.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SANGMU_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Ancient era unit that replaces the Slinger. +10 [ICON_Strength] Combat Strength when defending vs. melee class units.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_FANQU_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Ancient era unit that replaces the Archer.50% [ICON_Culture] Culture is earned from kills. </Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENBI_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Medieval era unit that replaces the Crossbowman. +1 [ICON_Range] Range when fighting in or adjacent to its home territory.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_SHENWEI_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Industrial era unit that replaces the Field Cannon.+1 [ICON_Range] Range when adjacent to a Observe Unit.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_M85_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Atomic era unit that replaces the Machine Gun. Does not suffer combat penalties when damaged.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_PILI_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Classical era unit that replaces the Catapult.+1 additional attack per turn if [ICON_Movement] Movement allows.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HONGYI_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Renaissance era unit that replaces the Bombard. +7 [ICON_Strength] Combat Strength vs. units in districts.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_ERPAO_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Modern era unit that replaces the Artillery. Does not suffer combat penalties when damaged.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_HUOJIANJUN_DESCRIPTION" Language="en_US">
+		  <Text>Chinese unique Information era unit that replaces the Rocket Artillery. Can move and shoot in the same turn.</Text>
+	  </Replace>
+  </LocalizedText>
+</GameData>

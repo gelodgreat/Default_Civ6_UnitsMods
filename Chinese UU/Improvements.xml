@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Improvements -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 1/10/2018 9:34:14 PM -->
+<GameData>
+	<Improvement_ValidBuildUnits><!--建筑定义-->
+		<Row ImprovementType="IMPROVEMENT_FARM" UnitType="UNIT_HUBEN"/>
+	</Improvement_ValidBuildUnits>
+</GameData>

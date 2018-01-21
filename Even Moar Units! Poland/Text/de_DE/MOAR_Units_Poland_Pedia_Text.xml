@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Die Spezialinfanterie, besser bekannt als piechota łanowa (Infanterie Łanowa) war eine Einheitentruppe im Gemeinschaftsstaat Polen-Litauen. Gegründet im Jahr 1578. Bestehend aus "adligen" Bauer die weder bezahlt noch Ansprüche auf königliche Ländereien hatten.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Ulanen sind polnische leichte Kavalleristen, die mit Lanzen, Säbeln und als Offiziere auch mit Pistolen bewaffnet waren. Deren Titel trugen später Lancierregimenter Russlands, Preussens und Österreichs. Typisch war eine viereckige Kopfbedeckung, die Tschapka. Sie stammt von der Kopfbedeckung in der Volkstracht (Krakowiak) der Gegend von Krakau ab und ist noch heute, in verschiedenen modernisierten Formen, wieder die Mütze der polnischen Landstreitkräfte.Im militärischen Gebrauch lehnte sich die Tschapka entsprechend der jeweils herrschenden Mode an Tschako und Pickelhaube an, behielt aber stets ihren viereckigen Deckel. Rosshaar- oder Federbüsche. Um 1800 kam als charakteristischer Typ des Uniformrocks die Kurtka mit abzeichenfarbigem Plastron in Verwendung und wurde später durch eine entsprechende Variante des Waffenrocks (Ulanka) abgelöst.Das Lanzenfähnchen war meist zweifarbig. Die Farbkombination diente neben der Abzeichenfarbe der Unterscheidung der Regimenter.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Janitschare (Bedeutung: "Neue Soldaten") sind Eliteinfanteristen, die als Trupp des Haushalts des osmanischen Sultan dienten. Die meisten Korps wurden während der Herrschaft von Murad I. (1392-89) aufgestellt. Rekrutiert wurden die Elitekorps aus eigens erzogenen christlichen Sklaven, die wegen ihres inneren Zusammenhalts beliebt waren, den man durch strenge Disziplin und Ordnung festigte. Im Gegensatz zu typischen Sklaven, wurden sie regelmäßig bezahlt. Um die Loyalität zum Sultan zu gewährleisten war es ihnen verboten zu heiraten und sich am Handel zu beteiligen. Aufgrund des gigantischen Wachstums der osmanischen Heeresgröße, wurde die strikte militärische Ordnung im 17. Jhd. gelockert. Zivilisten kauften sich in das Korps ein, um von dem guten sozial-ökonomischen Status zu profitieren. Als Konsequenz verlor das Korps seine militäische Wesensart und unterlief einen Prozess der Zivilisierung. Im Jahr 1826 wurde das Korps von Sultan Mahmud II. abgeschafft und in einem verheißungsvollen Moment mehr als 6000 von ihnen getötet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_JANISSARY_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Als Devshirme (übersetzt Knabenlese) bezeichnet man die Praxis, mit der das osmanische Reich junge christliche Männer im Alter von 8 bis 18 Jahren von Militärangehörigen aus ihren Familien riss, um dem Staat zu dienen. Diese "Sohnsteuer" wurde nur auf Christen angewandt, die im Reich lebten. Die Männer wurden zum Islam zwangskonvertiert mit dem Hauptziel die fähigsten Kinder und Jugendlichen auszuwählen und sie fürs Militär oder den zivilen Dienst zu verwenden. Vor allem aber um sie später zu Janitscharen auszubilden.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

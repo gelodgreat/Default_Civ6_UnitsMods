@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_CHOSEN_INFANTRY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_UHLAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_JANISSARY" Kind="KIND_UNIT"/>
+
+		<Row Type="TRAIT_CIVILIZATION_UNIT_CHOSEN_INFANTRY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_UHLAN" Kind="KIND_TRAIT"/>
+
+		<Row Type="ABILITY_CHOSEN_INFANTRY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UHLAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HEAL_ON_VICTORY" Kind="KIND_ABILITY"/>
+
+		<Row Type="RESOURCE_JANISSARY" Kind="KIND_RESOURCE"/>
+	</Types>
+	<Units>
+		<Row UnitType="UNIT_CHOSEN_INFANTRY" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CHOSEN_INFANTRY_NAME"
+			 Description="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="3"
+			 Combat="55" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER" MandatoryObsoleteTech="TECH_SATELLITES" TraitType="TRAIT_CIVILIZATION_UNIT_CHOSEN_INFANTRY"/>
+
+		<Row UnitType="UNIT_UHLAN" BaseMoves="5" Cost="330" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 Name="LOC_UNIT_UHLAN_NAME" Description="LOC_UNIT_UHLAN_DESCRIPTION" PurchaseYield="YIELD_GOLD"
+			 PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" Maintenance="5" Combat="62"
+			 PrereqTech="TECH_MILITARY_SCIENCE" StrategicResource="RESOURCE_HORSES" TraitType="TRAIT_CIVILIZATION_UNIT_UHLAN"/>
+
+		<Row UnitType="UNIT_JANISSARY" BaseMoves="2" Cost="240" AdvisorType="ADVISOR_CONQUEST"
+			 BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 Name="LOC_UNIT_JANISSARY_NAME" Description="LOC_UNIT_JANISSARY_DESCRIPTION" PurchaseYield="YIELD_GOLD"
+			 PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="55" PrereqTech="TECH_GUNPOWDER"
+			 StrategicResource="RESOURCE_JANISSARY"/>
+	</Units>
+	<Resources>
+		<Row ResourceType="RESOURCE_JANISSARY" Name="LOC_RESOURCE_JANISSARY_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="0"/>
+	</Resources>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_POLAND" TraitType="TRAIT_CIVILIZATION_UNIT_CHOSEN_INFANTRY"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" TraitType="TRAIT_CIVILIZATION_UNIT_UHLAN"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_CHOSEN_INFANTRY" Name="LOC_UNIT_CHOSEN_INFANTRY_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_UHLAN" Name="LOC_UNIT_UHLAN_NAME"/>
+	</Traits>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_CHOSEN_INFANTRY" ReplacesUnitType="UNIT_MUSKETMAN"/>
+		<Row CivUniqueUnitType="UNIT_UHLAN" ReplacesUnitType="UNIT_CAVALRY"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row Unit="UNIT_CHOSEN_INFANTRY" UpgradeUnit="UNIT_RIFLEMAN"/>
+		<Row Unit="UNIT_UHLAN" UpgradeUnit="UNIT_HELICOPTER"/>
+		<Row Unit="UNIT_JANISSARY" UpgradeUnit="UNIT_RIFLEMAN"/>
+	</UnitUpgrades>
+	<UnitAIInfos>
+		<Row UnitType="UNIT_CHOSEN_INFANTRY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CHOSEN_INFANTRY" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_CHOSEN_INFANTRY" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CHOSEN_INFANTRY" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_UHLAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UHLAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_UHLAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_UHLAN" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_UHLAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_JANISSARY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JANISSARY" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JANISSARY" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_JANISSARY" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAIInfos>
+	<Tags>
+		<Row Tag="CLASS_CHOSEN_INFANTRY" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_UHLAN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_JANISSARY" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_CHOSEN_INFANTRY" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_CHOSEN_INFANTRY" Tag="CLASS_CHOSEN_INFANTRY"/>
+		<Row Type="UNIT_UHLAN" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_UHLAN" Tag="CLASS_UHLAN"/>
+		<Row Type="UNIT_JANISSARY" Tag="CLASS_JANISSARY"/>
+
+		<Row Type="ABILITY_CHOSEN_INFANTRY" Tag="CLASS_CHOSEN_INFANTRY"/>
+		<Row Type="ABILITY_UHLAN" Tag="CLASS_UHLAN"/>
+		<Row Type="ABILITY_HEAL_ON_VICTORY" Tag="CLASS_JANISSARY"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_CHOSEN_INFANTRY" Name="LOC_ABILITY_CHOSEN_INFANTRY" Description="LOC_ABILITY_CHOSEN_INFANTRY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UHLAN" Name="LOC_ABILITY_UHLAN" Description="LOC_ABILITY_UHLAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HEAL_ON_VICTORY" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_CHOSEN_INFANTRY</UnitAbilityType>
+			<ModifierId>PLUS_10_HEAL_PER_TURN_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UHLAN</UnitAbilityType>
+			<ModifierId>ONE_HUNDRED_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>
+		</Row>
+		<Row UnitAbilityType="ABILITY_HEAL_ON_VICTORY" ModifierID="HEAL_AFTER_DEFEATING_UNIT"/>
+	</UnitAbilityModifiers>
+	<TraitModifiers>
+		<Row TraitType="MINOR_CIV_PRESLAV_TRAIT" ModifierId="MINOR_CIV_JANISSARY_BONUS"/>
+		<Row TraitType="MINOR_CIV_YEREVAN_TRAIT" ModifierId="MINOR_CIV_JANISSARY_BONUS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>PLUS_10_HEAL_PER_TURN_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ONE_HUNDRED_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_JANISSARY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>JANISSARY_RESOURCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PLUS_10_HEAL_PER_TURN_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>PLUS_10_HEAL_PER_TURN_BONUS</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>ONE_HUNDRED_PERCENT_FLANKING_BONUS_MODIFIER</ModifierId>
+			<Name>Percent</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_JANISSARY_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>JANISSARY_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>JANISSARY_RESOURCE_BONUS</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_JANISSARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>JANISSARY_RESOURCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

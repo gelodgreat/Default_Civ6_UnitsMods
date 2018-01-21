@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_WOOMERA_NAME" Language="es_ES">
+			<Text>Woomera</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WOOMERA_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva de Australia que reemplaza al hondero con un rango de 2 y que recibe gratis un ascenso de Cazador (+6 [ICON_Strength] al atacar casillas que no son distritos).</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_NAME" Language="es_ES">
+			<Text>S.A.S.R.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_DESCRIPTION" Language="es_ES">
+			<Text> Poderosa unidad de infantería mecanizada exclusiva de Australia que ignora las zonas de control enemigas y gana +5 [ICON_Strength] al luchar en desierto o llanura.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_NAME" Language="es_ES">
+			<Text>Cazador</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="es_ES">
+			<Text>+5 a la Fuerza a distancia [ICON_Ranged] contra unidades terrestres y +5 [ICON_Strength] al atacar casillas que no son distritos.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="es_ES">
+			<Text>+5 [ICON_Strength] al atacar casillas que no son distritos.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="es_ES">
+			<Text>+5 [ICON_Strength] al luchar en desierto o llanura.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

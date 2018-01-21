@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_WOOMERA_NAME" Language="ru_RU">
+			<Text>Вумераносец</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WOOMERA_DESCRIPTION" Language="ru_RU">
+			<Text>Австралийский уникальный дальнобойный юнит Древнего мира. Заменяет пращников. В отличие от них имеет радиус атаки 2. Получает бесплатное уникальное боевое повышение "Охотник" (дающее +6 [ICON_Strength] к боевой мощи при атаке любых клеток, кроме клеток с районами.).</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_NAME" Language="ru_RU">
+			<Text>С.А.С.А.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_DESCRIPTION" Language="ru_RU">
+			<Text>Австралийский уникальный юнит Информационной эры заменяющий мотопехоту. Игнорирует вражескую зону контроля и получает +5 [ICON_Strength] к боевой мощи в пустыне или на равнине.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_NAME" Language="ru_RU">
+			<Text>Охотник</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Ranged] к дальнобойной мощи против наземных юнитов. +5 [ICON_Strength] к боевой мощи при атаке любых клеток, кроме клеток с районами.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи при атаке любых клеток, кроме клеток с районами.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи в пустыне или на равнине.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

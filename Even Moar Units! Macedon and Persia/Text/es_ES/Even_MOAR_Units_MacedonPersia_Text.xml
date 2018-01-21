@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_BALLISTA_NAME" Language="es_ES">
+			<Text>Ballista</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BALLISTA_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva de Macedonia que reemplaza a la catapulta.Pierde -10 [ICON_Strength] al atacar a distritos pero gana +17 [ICON_Strength] al atacar a cualquier otro tipo de casilla.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACEDONIAN_HETAIROI_NAME" Language="es_ES">
+			<Text>Hetairos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEZHETAIROS_NAME" Language="es_ES">
+			<Text>Pezhetairos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEZHETAIROS_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva de macedonia que reemplaza al lancero. Mas fuerte que el lancero comun y recibe +10 [ICON_Strength] Al combatir contra unidades cuerpo a cuerpo.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_WARSHIP_NAME" Language="es_ES">
+			<Text>Buque de guerra real</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_WARSHIP_DESCRIPTION" Language="es_ES">
+			<Text>Unidad naval exclusiva de persia que reemplaza la galera. Gana +5 [ICON_Strength] al atacar. Aporta además +5 [ICON_Strength] a cualquier unidad terrestre adyacente ademas de +2 de movimiento si inician el turno junto al buque real.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPHRACT_NAME" Language="es_ES">
+			<Text>Catafracto</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPHRACT_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de caballeria pesada exclusiva de persia de la edad clasica.</Text>
+		</Replace>
+		<Replace Tag="PLUS_7_WHEN_ATTACKING_NON_DISTRICT_BONUS_DESC" Language="es_ES">
+			<Text>+17 [ICON_Strength] al atacar casillas que no son distritos.</Text>
+		</Replace>
+		<Replace Tag="MINUS_7_WHEN_ATTACKING_DISTRICT_MALUS_DESC" Language="es_ES">
+			<Text>-10 [ICON_Strength] al atacar distritos.</Text>
+		</Replace>
+		<Replace Tag="PLUS_10_VERSUS_MELEE_COMBAT_BONUS_DESC" Language="es_ES">
+			<Text>+10 [ICON_Strength] Contra unidades cuerpo a cuerpo.</Text>
+		</Replace>
+		<Replace Tag="RECEIVE_PERSIAN_WARSHIP_COMBAT_STRENGTH_BONUS_DESC" Language="es_ES">
+			<Text>+5 [ICON_Strength] por adyacencia a un buque real.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
+		

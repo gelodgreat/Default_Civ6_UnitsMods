@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="PROMOTION_CLASS_AIR_ATTACK" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_WILD_WEASEL" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_COUNTERMEASURES" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_AIR_SORTIES" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_GUIDED_BOMBS" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_CARPET_BOMBING" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_STRATEGIC_BOMBING" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_AIR_SUPERIORITY_FIGHTER" Kind="KIND_PROMOTION"/>
+	</Types>
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_AIR_ATTACK" Name="LOC_PROMOTION_CLASS_AIR_ATTACK_NAME"/>
+	</UnitPromotionClasses>
+	<UnitPromotions>
+		<Row UnitPromotionType="PROMOTION_WILD_WEASEL" Name="LOC_PROMOTION_WILD_WEASEL_NAME" Description="LOC_PROMOTION_WILD_WEASEL_DESCRIPTION" Level="1" Specialization="" Column="1" PromotionClass="PROMOTION_CLASS_AIR_ATTACK"/>
+		<Row UnitPromotionType="PROMOTION_COUNTERMEASURES" Name="LOC_PROMOTION_COUNTERMEASURES_NAME" Description="LOC_PROMOTION_COUNTERMEASURES_DESCRIPTION" Level="1" Specialization="" Column="3" PromotionClass="PROMOTION_CLASS_AIR_ATTACK"/>
+		<Row UnitPromotionType="PROMOTION_AIR_SORTIES" Name="LOC_PROMOTION_AIR_SORTIES_NAME" Description="LOC_PROMOTION_AIR_SORTIES_DESCRIPTION" Level="3" Specialization="" Column="1" PromotionClass="PROMOTION_CLASS_AIR_ATTACK"/>
+		<Row UnitPromotionType="PROMOTION_GUIDED_BOMBS" Name="LOC_PROMOTION_GUIDED_BOMBS_NAME" Description="LOC_PROMOTION_GUIDED_BOMBS_DESCRIPTION" Level="4" Specialization="" Column="2" PromotionClass="PROMOTION_CLASS_AIR_ATTACK"/>
+		<Row UnitPromotionType="PROMOTION_STRATEGIC_BOMBING" Name="LOC_PROMOTION_STRATEGIC_BOMBING_NAME" Description="LOC_PROMOTION_STRATEGIC_BOMBING_DESCRIPTION" Level="2" Specialization="" Column="1" PromotionClass="PROMOTION_CLASS_AIR_BOMBER"/>
+		<Row UnitPromotionType="PROMOTION_CARPET_BOMBING" Name="LOC_PROMOTION_CARPET_BOMBING_NAME" Description="LOC_PROMOTION_CARPET_BOMBING_DESCRIPTION" Level="2" Specialization="" Column="3" PromotionClass="PROMOTION_CLASS_AIR_BOMBER"/>
+		<Row UnitPromotionType="PROMOTION_AIR_SUPERIORITY_FIGHTER" Name="LOC_PROMOTION_AIR_SUPERIORITY_FIGHTER_NAME" Description="LOC_PROMOTION_AIR_SUPERIORITY_FIGHTER_DESCRIPTION" Level="3" Specialization="" Column="3" PromotionClass="PROMOTION_CLASS_AIR_FIGHTER"/>
+	</UnitPromotions>
+	<UnitPromotionPrereqs>
+		<!-- Delete UnitPromotionPrereqs -->
+		<Delete UnitPromotion="PROMOTION_TANK_BUSTER" PrereqUnitPromotion="PROMOTION_STRAFE"/>
+		<Delete UnitPromotion="PROMOTION_DROP_TANKS" PrereqUnitPromotion="PROMOTION_TANK_BUSTER"/>
+		<Delete UnitPromotion="PROMOTION_TORPEDO_BOMBER" PrereqUnitPromotion="PROMOTION_BOX_FORMATION"/>
+		<Delete UnitPromotion="PROMOTION_TORPEDO_BOMBER" PrereqUnitPromotion="PROMOTION_EVASIVE_MANEUVERS"/>
+		<Delete UnitPromotion="PROMOTION_TACTICAL_MAINTENANCE" PrereqUnitPromotion="PROMOTION_TORPEDO_BOMBER"/>
+		<Delete UnitPromotion="PROMOTION_CLOSE_AIR_SUPPORT" PrereqUnitPromotion="PROMOTION_EVASIVE_MANEUVERS"/>
+		<Delete UnitPromotion="PROMOTION_CLOSE_AIR_SUPPORT" PrereqUnitPromotion="PROMOTION_BOX_FORMATION"/>
+		<Delete UnitPromotion="PROMOTION_LONG_RANGE" PrereqUnitPromotion="PROMOTION_CLOSE_AIR_SUPPORT"/>
+		<!-- New UnitPromotionPrereqs -->
+		<Row UnitPromotion="PROMOTION_AIR_SORTIES" PrereqUnitPromotion="PROMOTION_TORPEDO_BOMBER"/>
+		<Row UnitPromotion="PROMOTION_GUIDED_BOMBS" PrereqUnitPromotion="PROMOTION_AIR_SORTIES"/>
+		<Row UnitPromotion="PROMOTION_GUIDED_BOMBS" PrereqUnitPromotion="PROMOTION_TANK_BUSTER"/>
+		<Row UnitPromotion="PROMOTION_STRATEGIC_BOMBING" PrereqUnitPromotion="PROMOTION_BOX_FORMATION"/>
+		<Row UnitPromotion="PROMOTION_CARPET_BOMBING" PrereqUnitPromotion="PROMOTION_EVASIVE_MANEUVERS"/>
+		<Row UnitPromotion="PROMOTION_AIR_SUPERIORITY_FIGHTER" PrereqUnitPromotion="PROMOTION_STRAFE"/>
+		<!-- Modified UnitPromotionPrereqs -->
+		<Row UnitPromotion="PROMOTION_TANK_BUSTER" PrereqUnitPromotion="PROMOTION_CLOSE_AIR_SUPPORT"/>
+		<Row UnitPromotion="PROMOTION_DROP_TANKS" PrereqUnitPromotion="PROMOTION_AIR_SUPERIORITY_FIGHTER"/>
+		<Row UnitPromotion="PROMOTION_TORPEDO_BOMBER" PrereqUnitPromotion="PROMOTION_WILD_WEASEL"/>
+		<Row UnitPromotion="PROMOTION_TACTICAL_MAINTENANCE" PrereqUnitPromotion="PROMOTION_STRATEGIC_BOMBING"/>
+		<Row UnitPromotion="PROMOTION_CLOSE_AIR_SUPPORT" PrereqUnitPromotion="PROMOTION_COUNTERMEASURES"/>
+		<Row UnitPromotion="PROMOTION_LONG_RANGE" PrereqUnitPromotion="PROMOTION_CARPET_BOMBING"/>
+	</UnitPromotionPrereqs>
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_WILD_WEASEL</UnitPromotionType>
+			<ModifierId>WILD_WEASEL_BONUS_VS_ANTIAIR</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_COUNTERMEASURES</UnitPromotionType>
+			<ModifierId>COUNTERMEASURES_BONUS_VS_FIGHTERS</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_AIR_SORTIES</UnitPromotionType>
+			<ModifierId>AIR_SORTIES_HEAL_AFTER_ACTION</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_GUIDED_BOMBS</UnitPromotionType>
+			<ModifierId>GUIDED_BOMBS_BONUS_VS_FORTIFIED</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_STRATEGIC_BOMBING</UnitPromotionType>
+			<ModifierId>STRATEGIC_BOMBING_VS_DISTRICTS</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_CARPET_BOMBING</UnitPromotionType>
+			<ModifierId>CARPET_BOMBING_BONUS_VS_LAND</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_AIR_SUPERIORITY_FIGHTER</UnitPromotionType>
+			<ModifierId>ASF_BONUS_VS_GROUND_ATTACK</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>WILD_WEASEL_BONUS_VS_ANTIAIR</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>WILD_WEASEL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COUNTERMEASURES_BONUS_VS_FIGHTERS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>COUNTERMEASURES_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AIR_SORTIES_HEAL_AFTER_ACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GUIDED_BOMBS_BONUS_VS_FORTIFIED</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>GUIDED_BOMBS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STRATEGIC_BOMBING_VS_DISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>STRATEGIC_BOMBING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CARPET_BOMBING_BONUS_VS_LAND</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>CARPET_BOMBING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ASF_BONUS_VS_GROUND_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>AIR_SUPERIORITY_FIGHTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>WILD_WEASEL_BONUS_VS_ANTIAIR</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>COUNTERMEASURES_BONUS_VS_FIGHTERS</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>GUIDED_BOMBS_BONUS_VS_FORTIFIED</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>STRATEGIC_BOMBING_VS_DISTRICTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>CARPET_BOMBING_BONUS_VS_LAND</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>ASF_BONUS_VS_GROUND_ATTACK</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>WILD_WEASEL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>COUNTERMEASURES_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GUIDED_BOMBS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>STRATEGIC_BOMBING_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CARPET_BOMBING_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AIR_SUPERIORITY_FIGHTER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>WILD_WEASEL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_IS_ANTI_AIR_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>COUNTERMEASURES_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_IS_FIGHTER_UNIT_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GUIDED_BOMBS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_IS_FORTIFIED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CARPET_BOMBING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STRATEGIC_BOMBING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_IS_DISTRICT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CARPET_BOMBING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_IS_LAND_UNIT_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AIR_SUPERIORITY_FIGHTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_IS_GROUND_ATTACK_UNIT_REQUIREMENTS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>OPPONENT_IS_GROUND_ATTACK_UNIT_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>OPPONENT_IS_GROUND_ATTACK_UNIT_REQUIREMENTS</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_ATTACK</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+		<Row ModifierId="WILD_WEASEL_BONUS_VS_ANTIAIR" Context="Preview" Text="LOC_PROMOTION_WILD_WEASEL_DESCRIPTION"/>
+		<Row ModifierId="COUNTERMEASURES_BONUS_VS_FIGHTERS" Context="Preview" Text="LOC_PROMOTION_COUNTERMEASURES_DESCRIPTION"/>
+		<Row ModifierId="GUIDED_BOMBS_BONUS_VS_FORTIFIED" Context="Preview" Text="LOC_PROMOTION_GUIDED_BOMBS_DESCRIPTION"/>
+		<Row ModifierId="STRATEGIC_BOMBING_VS_DISTRICTS" Context="Preview" Text="LOC_PROMOTION_STRATEGIC_BOMBING_DESCRIPTION"/>
+		<Row ModifierId="CARPET_BOMBING_BONUS_VS_LAND" Context="Preview" Text="LOC_PROMOTION_CARPET_BOMBING_DESCRIPTION"/>
+		<Row ModifierId="ASF_BONUS_VS_GROUND_ATTACK" Context="Preview" Text="LOC_PROMOTION_AIR_SUPERIORITY_FIGHTER_DESCRIPTION"/>
+	</ModifierStrings>
+</GameData>

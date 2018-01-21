@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_BALLISTA_NAME" Language="ru_RU">
+			<Text>Палинтон</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BALLISTA_DESCRIPTION" Language="ru_RU">
+			<Text>Македонский уникальный осадный юнит заменяющий катапульту. Получает +17 [ICON_Strength] к силе при обстреле клеток за пределами города и -10 от базовой [ICON_Strength] силы при обстреле городов.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACEDONIAN_HETAIROI_NAME" Language="ru_RU">
+			<Text>Гетайры</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEZHETAIROS_NAME" Language="ru_RU">
+			<Text>Педзетайры</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEZHETAIROS_DESCRIPTION" Language="ru_RU">
+			<Text>Македонский уникальный юнит заменяющий копейщиков. Сильнее обычных копейщиков и получает +10 [ICON_Strength] к боевой мощи против юнитов ближнего боя.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_WARSHIP_NAME" Language="ru_RU">
+			<Text>Царский военный корабль</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_WARSHIP_DESCRIPTION" Language="ru_RU">
+			<Text>Персидский уникальный морской юнит заменяющий галеру. Получает +5 [ICON_Strength] к боевой мощи при атаке. Кроме того получает +5 [ICON_Strength] к боевой мощи за соседние Царские корабли. Может получить +2 к очкам перемещения если дружественный юнит начинает свой ход на смежной клетке.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPHRACT_NAME" Language="ru_RU">
+			<Text>Катафракты</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPHRACT_DESCRIPTION" Language="ru_RU">
+			<Text>Персидский уникальный тяжелый кавалерийский юнит Античности</Text>
+		</Replace>
+		<Replace Tag="PLUS_7_WHEN_ATTACKING_NON_DISTRICT_BONUS_DESC" Language="ru_RU">
+			<Text>+17 [ICON_Strength] к боевой мощи против клеток за пределами города.</Text>
+		</Replace>
+		<Replace Tag="MINUS_7_WHEN_ATTACKING_DISTRICT_MALUS_DESC" Language="ru_RU">
+			<Text>-10 [ICON_Strength] к боевой мощи против клеток города.</Text>
+		</Replace>
+		<Replace Tag="PLUS_10_VERSUS_MELEE_COMBAT_BONUS_DESC" Language="ru_RU">
+			<Text>+10 [ICON_Strength] к боевой мощи против юнитов ближнего боя.</Text>
+		</Replace>
+		<Replace Tag="RECEIVE_PERSIAN_WARSHIP_COMBAT_STRENGTH_BONUS_DESC" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи за соседние Царские корабли.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
+		

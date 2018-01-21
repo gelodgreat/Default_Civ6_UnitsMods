@@ -1,0 +1,32 @@
+-- Unit Ability
+INSERT INTO Tags
+		(Tag,					Vocabulary)
+VALUES	('CLASS_NAVAL_BOMBARD',	'ABILITY_CLASS');
+
+INSERT INTO Types
+		(Type,						Kind)
+VALUES	('ABILITY_NAVAL_BOMBARD',	'KIND_ABILITY');
+
+INSERT INTO TypeTags
+		(Type,						Tag)
+VALUES	('ABILITY_NAVAL_BOMBARD',	'CLASS_NAVAL_BOMBARD');
+
+INSERT INTO UnitAbilities
+		(UnitAbilityType,			Name,								Description)
+VALUES	('ABILITY_NAVAL_BOMBARD',	'LOC_ABILITY_NAVAL_BOMBARD_NAME',	'LOC_ABILITY_NAVAL_BOMBARD_DESCRIPTION');
+
+INSERT INTO UnitAbilityModifiers
+		(UnitAbilityType,			ModifierId)
+VALUES	('ABILITY_NAVAL_BOMBARD',	'ADJUST_NAVAL_BOMBARD');
+
+INSERT INTO Modifiers
+		(ModifierId,				ModifierType)
+VALUES	('ADJUST_NAVAL_BOMBARD',	'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH');
+
+INSERT INTO ModifierArguments
+		(ModifierId,				Name,		Value)
+VALUES	('ADJUST_NAVAL_BOMBARD',	'Amount',	17);
+
+INSERT INTO ModifierStrings
+		(ModifierId,				Context,	Text)
+VALUES	('ADJUST_NAVAL_BOMBARD',	'Preview',	'LOC_ABILITY_NAVAL_BOMBARD_COMBAT_MODIFIER_DESCRIPTION');

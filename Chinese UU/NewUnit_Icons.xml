@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <!-- For simplicity sake, we're going to reuse existing icons. -->
+  <IconDefinitions>
+	  <Row Name="ICON_UNIT_SHAOTAN" Atlas="ICON_ATLAS_UNITS" Index="19"/>
+	  <Row Name="ICON_UNIT_BUSHOU" Atlas="ICON_ATLAS_UNITS" Index="68"/>
+	  <Row Name="ICON_UNIT_HUBEN" Atlas="ICON_ATLAS_UNITS" Index="20"/>
+	  <Row Name="ICON_UNIT_WEIWU" Atlas="ICON_ATLAS_UNITS" Index="34"/>
+	  <Row Name="ICON_UNIT_SHENJI" Atlas="ICON_ATLAS_UNITS" Index="53"/>
+	  <Row Name="ICON_UNIT_YOUJI" Atlas="ICON_ATLAS_UNITS" Index="71"/>
+	  <Row Name="ICON_UNIT_JIEFANG" Atlas="ICON_ATLAS_UNITS" Index="88"/>
+	  <Row Name="ICON_UNIT_JIJI" Atlas="ICON_ATLAS_UNITS" Index="30"/>
+	  <Row Name="ICON_UNIT_MODAO" Atlas="ICON_ATLAS_UNITS" Index="52"/>
+	  <Row Name="ICON_UNIT_JUMP" Atlas="ICON_ATLAS_UNITS" Index="77"/>
+	  <Row Name="ICON_UNIT_RED" Atlas="ICON_ATLAS_UNITS" Index="94"/>
+	  <Row Name="ICON_UNIT_QIWEN" Atlas="ICON_ATLAS_UNITS" Index="35"/>
+	  <Row Name="ICON_UNIT_GUANNING" Atlas="ICON_ATLAS_UNITS" Index="61"/>
+	  <Row Name="ICON_UNIT_WUZHI" Atlas="ICON_ATLAS_UNITS" Index="86"/>
+	  <Row Name="ICON_UNIT_TIEYE" Atlas="ICON_ATLAS_UNITS" Index="31"/>
+	  <Row Name="ICON_UNIT_XUAN" Atlas="ICON_ATLAS_UNITS" Index="45"/>
+	  <Row Name="ICON_UNIT_59TANK" Atlas="ICON_ATLAS_UNITS" Index="78"/>
+	  <Row Name="ICON_UNIT_99ATANK" Atlas="ICON_ATLAS_UNITS" Index="95"/>
+	  <!--远程单位-->
+	  <Row Name="ICON_UNIT_SANGMU" Atlas="ICON_ATLAS_UNITS" Index="21"/>
+	  <Row Name="ICON_UNIT_FANQU" Atlas="ICON_ATLAS_UNITS" Index="29"/>
+	  <Row Name="ICON_UNIT_SHENBI" Atlas="ICON_ATLAS_UNITS" Index="49"/>
+	  <Row Name="ICON_UNIT_SHENWEI" Atlas="ICON_ATLAS_UNITS" Index="60"/>
+	  <Row Name="ICON_UNIT_M85" Atlas="ICON_ATLAS_UNITS" Index="83"/>
+	  <Row Name="ICON_UNIT_PILI" Atlas="ICON_ATLAS_UNITS" Index="39"/>
+	  <Row Name="ICON_UNIT_HONGYI" Atlas="ICON_ATLAS_UNITS" Index="56"/>
+	  <Row Name="ICON_UNIT_ERPAO" Atlas="ICON_ATLAS_UNITS" Index="72"/>
+	  <Row Name="ICON_UNIT_HUOJIANJUN" Atlas="ICON_ATLAS_UNITS" Index="89"/>
+
+	  <Row Name="ICON_UNIT_SHAOTAN_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="19"/>
+	  <Row Name="ICON_UNIT_BUSHOU_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="68"/>
+	  <Row Name="ICON_UNIT_HUBEN_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="20"/>
+	  <Row Name="ICON_UNIT_WEIWU_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="34"/>
+	  <Row Name="ICON_UNIT_SHENJI_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="53"/>
+	  <Row Name="ICON_UNIT_YOUJI_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="71"/>
+	  <Row Name="ICON_UNIT_JIEFANG_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="88"/>
+	  <Row Name="ICON_UNIT_JIJI_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="30"/>
+	  <Row Name="ICON_UNIT_MODAO_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="52"/>
+	  <Row Name="ICON_UNIT_JUMP_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="77"/>
+	  <Row Name="ICON_UNIT_RED_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="94"/>
+	  <Row Name="ICON_UNIT_QIWEN_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="35"/>
+	  <Row Name="ICON_UNIT_GUANNING_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="61"/>
+	  <Row Name="ICON_UNIT_WUZHI_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="86"/>
+	  <Row Name="ICON_UNIT_TIEYE_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="31"/>
+	  <Row Name="ICON_UNIT_XUAN_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="45"/>
+	  <Row Name="ICON_UNIT_59TANK_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="78"/>
+	  <Row Name="ICON_UNIT_99ATANK_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="95"/>
+	  <!--远程单位-->
+	  <Row Name="ICON_UNIT_SANGMU_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="21"/>
+	  <Row Name="ICON_UNIT_FANQU_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="29"/>
+	  <Row Name="ICON_UNIT_SHENBI_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="49"/>
+	  <Row Name="ICON_UNIT_SHENWEI_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="60"/>
+	  <Row Name="ICON_UNIT_M85_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="83"/>
+	  <Row Name="ICON_UNIT_PILI_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="39"/>
+	  <Row Name="ICON_UNIT_HONGYI_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="56"/>
+	  <Row Name="ICON_UNIT_ERPAO_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="72"/>
+	  <Row Name="ICON_UNIT_HUOJIANJUN_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="89"/>
+	  
+	  <Row Name="ICON_UNIT_SHAOTAN_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="17"/>
+	  <Row Name="ICON_UNIT_BUSHOU_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="2"/>
+	  <Row Name="ICON_UNIT_HUBEN_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="18"/>
+	  <Row Name="ICON_UNIT_WEIWU_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="32"/>
+	  <Row Name="ICON_UNIT_SHENJI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="51"/>
+	  <Row Name="ICON_UNIT_YOUJI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="5"/>
+	  <Row Name="ICON_UNIT_JIEFANG_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="22"/>
+	  <Row Name="ICON_UNIT_JIJI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="28"/>
+	  <Row Name="ICON_UNIT_MODAO_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="50"/>
+	  <Row Name="ICON_UNIT_JUMP_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="11"/>
+	  <Row Name="ICON_UNIT_RED_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="28"/>
+	  <Row Name="ICON_UNIT_QIWEN_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="33"/>
+	  <Row Name="ICON_UNIT_GUANNING_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="59"/>
+	  <Row Name="ICON_UNIT_WUZHI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="20"/>
+	  <Row Name="ICON_UNIT_TIEYE_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="29"/>
+	  <Row Name="ICON_UNIT_XUAN_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="43"/>
+	  <Row Name="ICON_UNIT_59TANK_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="12"/>
+	  <Row Name="ICON_UNIT_99ATANK_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="29"/>
+	  <!--远程单位-->
+	  <Row Name="ICON_UNIT_SANGMU_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="19"/>
+	  <Row Name="ICON_UNIT_FANQU_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="27"/>
+	  <Row Name="ICON_UNIT_SHENBI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="47"/>
+	  <Row Name="ICON_UNIT_SHENWEI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="58"/>
+	  <Row Name="ICON_UNIT_M85_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="17"/>
+	  <Row Name="ICON_UNIT_PILI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="37"/>
+	  <Row Name="ICON_UNIT_HONGYI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="54"/>
+	  <Row Name="ICON_UNIT_ERPAO_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="6"/>
+	  <Row Name="ICON_UNIT_HUOJIANJUN_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="23"/>
+  </IconDefinitions>
+</GameData>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_UNIT_AT_CREW_NAME">
+			<Text>Anti-Tank Artillery</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_AT_NAME">
+			<Text>Weapons Company</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_AT_CHAPTER_HISTORY_PARA_1">
+			<Text>A mechanized weapons company, sometimes called a manoeuvre support company, is a company-sized military unit attached to an infantry battalion to support the rifle companies of the battalion. It usually possesses some combination of machine guns, automatic grenade launchers, mortars, anti-armor missiles, anti-aircraft missiles, reconnaissance troops (which usually includes snipers) and assault pioneers (infantrymen specially trained in the assault role). Traditionally these infantrymen are foot soldiers but from WW2 onwards they are mounted in either APCs or AFVs in mechanized infantry battalions.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELICOPTER_NAME">
+			<Text>Air Cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELICOPTER_DESCRIPTION">
+			<Text>Fast-moving Information era light cavalry unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY">
+			<Text>You look to construction to improve the performance of your sizable contingent of ranged troops.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION">
+			<Text>Indian unique Classical era unit that replaces the Cataphract. Adjacent enemy units receive -5 [ICON_STRENGTH] Combat Strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BOMBER_DESCRIPTION">
+			<Text>Atomic era Great War Bomber upgrade.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BIPLANE_NAME">
+			<Text>Great War Fighter</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIGHTER_DESCRIPTION">
+			<Text>Atomic era Great War Fighter upgrade.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CARAVEL_DESCRIPTION">
+			<Text>Fast Medieval era exploration melee naval unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DESTROYER_DESCRIPTION">
+			<Text>Modern era melee naval unit. Reveals submarines within sight range.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION">
+			<Text>Modern era heavy naval ranged unit. Provides cover from air and nuclear attacks up to 1 tile away.</Text>
+		</Replace>
+	</BaseGameText>
+</GameData>

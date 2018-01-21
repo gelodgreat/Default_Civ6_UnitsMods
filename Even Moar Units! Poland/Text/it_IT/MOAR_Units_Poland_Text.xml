@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_NAME" Language="it_IT">
+			<Text>Fanteria scelta</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva polacca che sostituisce il Soldato con moschetto. Si cura di 10 punti addizionali per turno.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UHLAN_NAME" Language="it_IT">
+			<Text>Uhlan</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UHLAN_DESCRIPTION" Language="it_IT">
+			<Text>Unità di cavalleria leggera esclusiva polacca che sostituisce la Cavalleria. +100% bonus di accerchiamento.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="it_IT">
+			<Text>Le tue unità di cavalleria leggera e pesante hanno +5 alla [ICON_Strength] Forza quando combattono in collina. Permette di addestrare l'unità Giannizzero.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION" Language="it_IT">
+			<Text>Le tue unità Apostolo possono scegliere le loro promozioni tra tutte quelle disponibili anziché riceverne una casuale. Permette di addestrare l'unità Giannizzero.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JANISSARY_NAME" Language="it_IT">
+			<Text>Giannizzero</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JANISSARY_DESCRIPTION" Language="it_IT">
+			<Text>Unità di epoca rinascimentale che può essere addestrata dal sovrano di Preslav o di Yerevan. Si cura quando sconfigge un'unità nemica.</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_JANISSARY_NAME" Language="it_IT">
+			<Text>Devshirme</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

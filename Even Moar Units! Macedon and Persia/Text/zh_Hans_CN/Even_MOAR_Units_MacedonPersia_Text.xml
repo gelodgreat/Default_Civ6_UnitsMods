@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_BALLISTA_NAME" Language="zh_Hans_CN">
+			<Text>弩炮</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BALLISTA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代投石机的马其顿古典时代特色攻城单位，当位于城市区域外时+17战斗力[ICON_Strength]，位城市区域内时-10战斗力[ICON_Strength]。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACEDONIAN_HETAIROI_NAME" Language="zh_Hans_CN">
+			<Text>伙伴骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEZHETAIROS_NAME" Language="zh_Hans_CN">
+			<Text>历战长枪手</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEZHETAIROS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代长枪手的马其顿古典时代特色抗骑兵单位，拥有更强的战斗力且进攻近战单位时+10战斗力[ICON_Strength]。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_WARSHIP_NAME" Language="zh_Hans_CN">
+			<Text>帝国战舰</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_WARSHIP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代浆帆船的波斯古典时代特色近战海军单位，当进攻时+5战斗力[ICON_Strength]、邻近的陆地单位时+5战斗力[ICON_Strength]且+2移动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPHRACT_NAME" Language="zh_Hans_CN">
+			<Text>贵族鳞甲骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPHRACT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>波斯古典时代特色重骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="PLUS_7_WHEN_ATTACKING_NON_DISTRICT_BONUS_DESC" Language="zh_Hans_CN">
+			<Text>当位于城市区域外时+17[ICON_Strength]攻击力</Text>
+		</Replace>
+		<Replace Tag="MINUS_7_WHEN_ATTACKING_DISTRICT_MALUS_DESC" Language="zh_Hans_CN">
+			<Text>当位于城市区域内时-10[ICON_Strength]攻击力</Text>
+		</Replace>
+		<Replace Tag="PLUS_10_VERSUS_MELEE_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
+			<Text>当进攻近战单位时+10[ICON_Strength]攻击力</Text>
+		</Replace>
+		<Replace Tag="RECEIVE_PERSIAN_WARSHIP_COMBAT_STRENGTH_BONUS_DESC" Language="zh_Hans_CN">
+			<Text>当靠近帝国战舰时+5[ICON_Strength]攻击力</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
+		

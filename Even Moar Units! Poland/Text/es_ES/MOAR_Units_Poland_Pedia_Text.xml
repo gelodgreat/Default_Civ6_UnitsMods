@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Los elegidos, también llamada piechota łanowa (infantería de łan), era un tipo de infantería en la comunidad polaco–lituana creada en 1578. Estaba compuesta por campesinos de las tierras de realengo (uno por cada 20 łans) que estaban exentas de retención o tierras revindicadas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Ulanos eran caballería ligera armada con lanzas, sables y pistolas. El título fue utilizado posteriormente por regimientos de lanceros en los ejércitos rusos, prusianos, y austríacos. Los Ulanos típicamente llevaban chaquetas de doble botonadura (kurtka) con un panel de color (plastron) encima, una faja coloreada, y una gorra de lancero polaco con tapa cuadrada (rogatywka, también llamados czapka). Esta gorra o casco de caballería era un derivado del diseño tradicional de la gorra polaca, hecha más formal y estilizada para el uso militar. Sus lanzas solían tener pequeñas banderas de cola de golondrino (pendones de lanza) justo por debajo de la punta de lanza.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Los Jenízaros (del turco "nuevas tropas/soldados") constituían unidades de infantería con alto nivel de entrenamiento, parte de los encargados de la custodia y salvaguarda del Sultán otomano. Los cuerpos fueron probablemente establecidos durante el reinado de Murad I (1362-89). Comenzaron como cuerpos de élite de esclavos, compuestos por chicos cristianos reclutados, y se volvieron famosos por su cohesión interna cementada por una estricta disciplina y orden. Al contrario que los esclavos corrientes, se les pagaban sueldos regulares. Prohibido el matrimonio o intercambio, su completa lealtad al Sultán era de esperar. En el siglo XVII, debido a un incremento dramático del tamaño del ejército otomano, las estrictas condiciones de entrada a los cuerpos se relajaron. Civiles pagaron su entrada al cuerpo para beneficiarse del estatus socioeconómico que se les confería. En consecuencia, los cuerpos fueron perdiendo su caracter militar, padeciendo un proceso que se ha descrito como 'civilianización'. Los cuerpos fueron abolidos por el Sultan Mahmudd II en 1826 en Incidente Afortunado en el cual 6000 o más fueron ejecutados.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_JANISSARY_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>Devshirme (literalmente "levantar" o "colectar") era la práctica por la cual el Imperio otomano reclutaba a niños, entre 8 y 18 años, para ser criados para servir al estado. Este impuesto de hijos fue impuesto sólamente sobre los súbditos cristianos del imperio. Los hijos eran convertidos al Islam con el objetivo de seleccionar y entrenar a los más habiles para el servicio civil o militar, notablemente como jenízaros.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

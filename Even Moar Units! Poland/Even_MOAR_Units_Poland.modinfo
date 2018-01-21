@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c5b55307-24bf-4952-ad64-5708fd67faec">
+    <Properties>
+        <Name>Even Moar Units! Poland</Name>
+        <Teaser>Adds Chosen Infantry and Uhlan units to Poland.</Teaser>
+        <Description>Two new units for Poland. Requires Poland DLC and Moar Units.
+
+Chosen Infantry
+Unique Melee unit that replaces Musketman. Heals an additional 10 points per turn.
+
+Uhlan
+Unique Light Cavalry unit that replaces Cavalry. +100% flanking bonus.
+
+Other Changes:
+* Makes Janissary unit available when you are the Suzerain of Preslav or Yerevan (via the new Devshirme strategic resource).
+* Janissary is the same as Musketman but heals after combat Victory
+
+Credits
+Icon Art by @janboruta</Description>
+        <Authors>Deliverator</Authors>
+    </Properties>
+	<Dependencies>
+		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="PolandDLC" />
+        <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOARUnits" />
+	</Dependencies>
+    <FrontEndActions>
+        <UpdateDatabase id="MOAR_Poland_SETTING">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
+            <File>Config/MOAR_Units_Poland_Config.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="MOAR_Poland_SETTING_TEXT">
+            <File>Text/en_US/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/es_ES/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/de_DE/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/it_IT/MOAR_Units_Poland_Text.xml</File>
+        </UpdateText>
+        <UpdateIcons id="MOAR_Poland_Setting_Icons">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
+            <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
+        </UpdateIcons>
+    </FrontEndActions>
+    <InGameActions>
+        <UpdateDatabase id="MOAR_Poland_UpdateDatabase">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
+            <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
+            <File>Data/Even_MOAR_Units_Poland_Data.sql</File>
+        </UpdateDatabase>
+        <UpdateText id="MOAR_Poland_LocalizedText">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
+            <Include mod_id="3809975F-263F-40A2-A747-8BFB171D821A" action_id="PolandJadwigaText"/>
+            <File>Text/en_US/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/en_US/MOAR_Units_Poland_Pedia_Text.xml</File>
+            <File>Text/es_ES/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/es_ES/MOAR_Units_Poland_Pedia_Text.xml</File>
+            <File>Text/de_DE/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/de_DE/MOAR_Units_Poland_Pedia_Text.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Poland_Pedia_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Poland_Pedia_Text.xml</File>
+            <File>Text/it_IT/MOAR_Units_Poland_Text.xml</File>
+        </UpdateText>
+        <UpdateIcons id="MOAR_Poland_Icons">
+            <Include mod_id="3809975F-263F-40A2-A747-8BFB171D821A" action_id="PolandJadwigaIcons"/>
+            <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateArt id="MOAR_Poland_ModArt">
+            <Include mod_id="3809975F-263F-40A2-A747-8BFB171D821A" action_id="PolandJadwigaArt"/>
+            <File>Even_MOAR_Units_Poland.dep</File>
+        </UpdateArt>
+    </InGameActions>
+    <Files>
+        <File>ArtDefs/Units.artdef</File>
+        <File>ArtDefs/Unit_Bins.artdef</File>
+        <File>Even_MOAR_Units_Poland.dep</File>
+        <File>Config/MOAR_Units_Poland_Config.xml</File>
+        <File>Data/Even_MOAR_Units_Poland_Data.xml</File>
+        <File>Data/Even_MOAR_Units_Poland_Data.sql</File>
+        <File>Data/Even_MOAR_Units_Poland_Icons.xml</File>
+
+        <!-- Text -->
+        <File>Text/en_US/MOAR_Units_Poland_Text.xml</File>
+        <File>Text/en_US/MOAR_Units_Poland_Pedia_Text.xml</File>
+        <File>Text/es_ES/MOAR_Units_Poland_Text.xml</File>
+        <File>Text/es_ES/MOAR_Units_Poland_Pedia_Text.xml</File>
+        <File>Text/de_DE/MOAR_Units_Poland_Text.xml</File>
+        <File>Text/de_DE/MOAR_Units_Poland_Pedia_Text.xml</File>
+        <File>Text/ru_RU/MOAR_Units_Poland_Text.xml</File>
+        <File>Text/ru_RU/MOAR_Units_Poland_Pedia_Text.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_Poland_Text.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_Poland_Pedia_Text.xml</File>
+        <File>Text/it_IT/MOAR_Units_Poland_Text.xml</File>
+
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_ReactA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_SpawnA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDeathA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDefendA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_TurnLeftA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_TurnRightA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_CombatIdleA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_IdleD</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDeathA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDefendA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedB</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopD</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_BreathingA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_MountedTurnLeftA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_BreathingA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_CombatIdleA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleD</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunFwdB</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopD</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cavalry_ao</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cavalry_g</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cavalry_m</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cavalry_n0</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cavalry_n1</File>
+        <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Cavalry_a_Cavalry_t</File>
+        <File>Platforms/MacOS/BLPs/units/units.blp</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_ReactA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_SpawnA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDeathA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDefendA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_TurnLeftA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_TurnRightA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_CombatIdleA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_IdleD</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDeathA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDefendA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_ReactRangedB</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_RunStopD</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_BreathingA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_MountedTurnLeftA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_BreathingA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_CombatIdleA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleD</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunFwdB</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopD</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cavalry_ao</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cavalry_g</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cavalry_m</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cavalry_n0</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cavalry_n1</File>
+        <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Cavalry_a_Cavalry_t</File>
+        <File>Platforms/Windows/BLPs/units/units.blp</File>
+    </Files>
+</Mod>

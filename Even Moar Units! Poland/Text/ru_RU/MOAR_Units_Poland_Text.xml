@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_NAME" Language="ru_RU">
+			<Text>Выбранецкая пехота</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" Language="ru_RU">
+			<Text>Польский уникальный юнит ближнего боя заменяющий мушкетеров. Исцеляет дополнительно 10 очков за ход.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UHLAN_NAME" Language="ru_RU">
+			<Text>Уланы</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UHLAN_DESCRIPTION" Language="ru_RU">
+			<Text>Польский уникальный кавалерийский юнит. Заменяет обычную кавалерию. Получает +100% к бонусу за атаку с фланга.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="ru_RU">
+			<Text>Ваша легкая и тяжелая кавалерия получает +5 [ICON_Strength] к боевой мощи, когда сражается на холмистой местности. Позволяет тренировать Янычар.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION" Language="ru_RU">
+			<Text>Ваши апостолы могут выбирать повышение, вместо того, что бы получать его случайно. Позволяет тренировать Янычар.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JANISSARY_NAME" Language="ru_RU">
+			<Text>Янычары</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JANISSARY_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит ближнего боя эпохи Возрождения. Может быть подготовлен только сюзереном Преслава или Еревана. Исцеляется после уничтодения врага.</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_JANISSARY_NAME" Language="ru_RU">
+			<Text>Девширме</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

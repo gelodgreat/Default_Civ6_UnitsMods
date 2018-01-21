@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types><!--类型定义-->
+		<!--近战单位定义-->
+		<Row Type="UNIT_SHAOTAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_BUSHOU" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HUBEN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_WEIWU" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SHENJI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YOUJI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_JIEFANG" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_JIJI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_MODAO" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_JUMP" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_RED" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_QIWEN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GUANNING" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_WUZHI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TIEYE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_XUAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_59TANK" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_99ATANK" Kind="KIND_UNIT"/>
+		<!--远程单位定义-->
+		<Row Type="UNIT_SANGMU" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FANQU" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SHENBI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SHENWEI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_M85" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_PILI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HONGYI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ERPAO" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HUOJIANJUN" Kind="KIND_UNIT"/>
+		
+		<!--近战能力定义-->
+		<Row Type="ABILITY_CHIHOU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YEXI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FUXIN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BAILI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SHENJI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_JIFU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SHAO" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WUDU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RENMA" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SUNBIN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LIAOREN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YULI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_QINWEI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WUDUI" Kind="KIND_ABILITY"/>
+		<!--远程能力定义-->
+		<Row Type="ABILITY_SHUANG" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WUSHE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ZHONGZHA" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LUNZHUAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_XINGDOU" Kind="KIND_ABILITY"/>
+		
+	</Types>
+	<UnitAiInfos><!--单位AI定义-->
+		<!-- Recon-->
+		<Row UnitType="UNIT_SHAOTAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SHAOTAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_BUSHOU" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_BUSHOU" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_BUSHOU" AiType="UNITTYPE_RANGED"/>
+		<!-- Melee-->
+		<Row UnitType="UNIT_HUBEN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HUBEN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HUBEN" AiType="UNITAI_BUILD"/>
+		<Row UnitType="UNIT_HUBEN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HUBEN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_JIJI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JIJI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JIJI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_JIJI" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_WEIWU" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_WEIWU" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_WEIWU" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_WEIWU" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_MODAO" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MODAO" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MODAO" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MODAO" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SHENJI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SHENJI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SHENJI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SHENJI" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_YOUJI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_YOUJI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_YOUJI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_YOUJI" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_JUMP" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JUMP" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JUMP" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_JUMP" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_JIEFANG" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JIEFANG" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JIEFANG" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_JIEFANG" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_RED" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_RED" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_RED" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_RED" AiType="UNITTYPE_LAND_COMBAT"/>
+		<!-- Light Cavalry-->
+		<Row UnitType="UNIT_QIWEN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_QIWEN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_QIWEN" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_QIWEN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_QIWEN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_GUANNING" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GUANNING" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GUANNING" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GUANNING" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_GUANNING" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_WUZHI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_WUZHI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_WUZHI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_WUZHI" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_WUZHI" AiType="UNITTYPE_LAND_COMBAT"/>
+		<!-- Heavy Cavalry-->
+		<Row UnitType="UNIT_TIEYE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TIEYE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_TIEYE" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_TIEYE" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_XUAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_XUAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_XUAN" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_XUAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_59TANK" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_59TANK" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_59TANK" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_59TANK" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_99ATANK" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_99ATANK" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_99ATANK" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_99ATANK" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_99ATANK" AiType="UNITTYPE_LAND_COMBAT"/>
+		<!-- Ranged-->
+		<Row UnitType="UNIT_SANGMU" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SANGMU" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SANGMU" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_FANQU" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_FANQU" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_FANQU" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SHENBI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SHENBI" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SHENBI" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SHENWEI" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SHENWEI" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SHENWEI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_M85" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_M85" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_M85" AiType="UNITAI_COMBAT"/>
+		<!-- Siege-->
+		<Row UnitType="UNIT_PILI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_PILI" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_PILI" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_PILI" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HONGYI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HONGYI" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HONGYI" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_HONGYI" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_ERPAO" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ERPAO" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_ERPAO" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_ERPAO" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HUOJIANJUN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HUOJIANJUN" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HUOJIANJUN" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_HUOJIANJUN" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitReplaces><!--单位替换定义-->
+		<Row CivUniqueUnitType="UNIT_SHAOTAN" ReplacesUnitType="UNIT_SCOUT"/>
+		<Row CivUniqueUnitType="UNIT_BUSHOU" ReplacesUnitType="UNIT_RANGER"/>
+		<Row CivUniqueUnitType="UNIT_HUBEN" ReplacesUnitType="UNIT_WARRIOR"/>
+		<Row CivUniqueUnitType="UNIT_WEIWU" ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_SHENJI" ReplacesUnitType="UNIT_MUSKETMAN"/>
+		<Row CivUniqueUnitType="UNIT_YOUJI" ReplacesUnitType="UNIT_INFANTRY"/>
+		<Row CivUniqueUnitType="UNIT_JIEFANG" ReplacesUnitType="UNIT_MECHANIZED_INFANTRY"/>
+		<Row CivUniqueUnitType="UNIT_JIJI" ReplacesUnitType="UNIT_SPEARMAN"/>
+		<Row CivUniqueUnitType="UNIT_MODAO" ReplacesUnitType="UNIT_PIKEMAN"/>
+		<Row CivUniqueUnitType="UNIT_JUMP" ReplacesUnitType="UNIT_AT_CREW"/>
+		<Row CivUniqueUnitType="UNIT_RED" ReplacesUnitType="UNIT_MODERN_AT"/>
+		<Row CivUniqueUnitType="UNIT_QIWEN" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_GUANNING" ReplacesUnitType="UNIT_CAVALRY"/>
+		<Row CivUniqueUnitType="UNIT_WUZHI" ReplacesUnitType="UNIT_HELICOPTER"/>
+		<Row CivUniqueUnitType="UNIT_TIEYE" ReplacesUnitType="UNIT_HEAVY_CHARIOT"/>
+		<Row CivUniqueUnitType="UNIT_XUAN" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_59TANK" ReplacesUnitType="UNIT_TANK"/>
+		<Row CivUniqueUnitType="UNIT_99ATANK" ReplacesUnitType="UNIT_MODERN_ARMOR"/>
+		<!--远程替换-->
+		<Row CivUniqueUnitType="UNIT_SANGMU" ReplacesUnitType="UNIT_SLINGER"/>
+		<Row CivUniqueUnitType="UNIT_FANQU" ReplacesUnitType="UNIT_ARCHER"/>
+		<Row CivUniqueUnitType="UNIT_SHENBI" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="UNIT_SHENWEI" ReplacesUnitType="UNIT_FIELD_CANNON"/>
+		<Row CivUniqueUnitType="UNIT_M85" ReplacesUnitType="UNIT_MACHINE_GUN"/>
+		<Row CivUniqueUnitType="UNIT_PILI" ReplacesUnitType="UNIT_CATAPULT"/>
+		<Row CivUniqueUnitType="UNIT_HONGYI" ReplacesUnitType="UNIT_BOMBARD"/>
+		<Row CivUniqueUnitType="UNIT_ERPAO" ReplacesUnitType="UNIT_ARTILLERY"/>
+		<Row CivUniqueUnitType="UNIT_HUOJIANJUN" ReplacesUnitType="UNIT_ROCKET_ARTILLERY"/>
+	</UnitReplaces>
+	<Tags><!--能力类型定义-->
+		<!--近战能力-->
+		<Row Tag="CLASS_CHIHOU" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_YEXI" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_FUXIN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_BAILI" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SHENJI" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_JIFU" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SHAO" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_WUDU" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_RENMA" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SUNBIN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_LIAOREN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_YULI" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_QINWEI" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_WUDUI" Vocabulary="ABILITY_CLASS"/>
+		<!--远程能力-->
+		<Row Tag="CLASS_SHUANG" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_WUSHE" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_ZHONGZHA" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_LUNZHUAN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_XINGDOU" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags><!--定义类型-->
+		<!--单位定义能力类型-->
+		<!--近战能力-->
+		<Row Type="UNIT_SHAOTAN" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_SHAOTAN" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_SHAOTAN" Tag="CLASS_CHIHOU"/>
+		<Row Type="UNIT_BUSHOU" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_BUSHOU" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_BUSHOU" Tag="CLASS_YEXI"/>
+		<Row Type="UNIT_HUBEN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HUBEN" Tag="CLASS_FUXIN"/>
+		<Row Type="UNIT_WEIWU" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_WEIWU" Tag="CLASS_BAILI"/>
+		<Row Type="UNIT_SHENJI" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_SHENJI" Tag="CLASS_SHENJI"/>
+		<Row Type="UNIT_YOUJI" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_YOUJI" Tag="CLASS_JIFU"/>
+		<Row Type="UNIT_JIEFANG" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_JIEFANG" Tag="CLASS_SHAO"/>
+		<Row Type="UNIT_JIJI" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_JIJI" Tag="CLASS_WUDU"/>
+		<Row Type="UNIT_MODAO" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_MODAO" Tag="CLASS_RENMA"/>
+		<Row Type="UNIT_JUMP" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_JUMP" Tag="CLASS_JIFU"/>
+		<Row Type="UNIT_RED" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_RED" Tag="CLASS_SHAO"/>
+		<Row Type="UNIT_QIWEN" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_QIWEN" Tag="CLASS_SUNBIN"/>
+		<Row Type="UNIT_GUANNING" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_GUANNING" Tag="CLASS_LIAOREN"/>
+		<Row Type="UNIT_WUZHI" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_WUZHI" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_WUZHI" Tag="CLASS_SHAO"/>
+		<Row Type="UNIT_TIEYE" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_TIEYE" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="UNIT_TIEYE" Tag="CLASS_YULI"/>
+		<Row Type="UNIT_XUAN" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_XUAN" Tag="CLASS_QINWEI"/>
+		<Row Type="UNIT_59TANK" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="UNIT_59TANK" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_59TANK" Tag="CLASS_WUDUI"/>
+		<Row Type="UNIT_99ATANK" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="UNIT_99ATANK" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_99ATANK" Tag="CLASS_SHAO"/>
+		<!--远程能力-->
+		<Row Type="UNIT_SANGMU" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_SANGMU" Tag="CLASS_SHUANG"/>
+		<Row Type="UNIT_FANQU" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_FANQU" Tag="CLASS_WUSHE"/>
+		<Row Type="UNIT_SHENBI" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_SHENBI" Tag="CLASS_ZHONGZHA"/>
+		<Row Type="UNIT_SHENWEI" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_SHENWEI" Tag="CLASS_FORWARD_OBSERVER"/>
+		<Row Type="UNIT_M85" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_M85" Tag="CLASS_SHAO"/>
+		<Row Type="UNIT_PILI" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_PILI" Tag="CLASS_LUNZHUAN"/>
+		<Row Type="UNIT_HONGYI" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_HONGYI" Tag="CLASS_FORWARD_OBSERVER"/>
+		<Row Type="UNIT_HONGYI" Tag="CLASS_XINGDOU"/>
+		<Row Type="UNIT_ERPAO" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_ERPAO" Tag="CLASS_FORWARD_OBSERVER"/>
+		<Row Type="UNIT_ERPAO" Tag="CLASS_SHAO"/>
+		<Row Type="UNIT_HUOJIANJUN" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_HUOJIANJUN" Tag="CLASS_FORWARD_OBSERVER"/>
+		
+		<!--能力定义类型-->
+		<!--近战能力-->
+		<Row Type="ABILITY_CHIHOU" Tag="CLASS_CHIHOU"/>
+		<Row Type="ABILITY_YEXI" Tag="CLASS_YEXI"/>
+		<Row Type="ABILITY_FUXIN" Tag="CLASS_FUXIN"/>
+		<Row Type="ABILITY_BAILI" Tag="CLASS_BAILI"/>
+		<Row Type="ABILITY_SHENJI" Tag="CLASS_SHENJI"/>
+		<Row Type="ABILITY_JIFU" Tag="CLASS_JIFU"/>
+		<Row Type="ABILITY_SHAO" Tag="CLASS_SHAO"/>
+		<Row Type="ABILITY_WUDU" Tag="CLASS_WUDU"/>
+		<Row Type="ABILITY_RENMA" Tag="CLASS_RENMA"/>
+		<Row Type="ABILITY_SUNBIN" Tag="CLASS_SUNBIN"/>
+		<Row Type="ABILITY_LIAOREN" Tag="CLASS_LIAOREN"/>
+		<Row Type="ABILITY_YULI" Tag="CLASS_YULI"/>
+		<Row Type="ABILITY_QINWEI" Tag="CLASS_QINWEI"/>
+		<Row Type="ABILITY_WUDUI" Tag="CLASS_WUDUI"/>
+		<!--远程能力-->
+		<Row Type="ABILITY_SHUANG" Tag="CLASS_SHUANG"/>
+		<Row Type="ABILITY_WUSHE" Tag="CLASS_WUSHE"/>
+		<Row Type="ABILITY_ZHONGZHA" Tag="CLASS_ZHONGZHA"/>
+		<Row Type="ABILITY_LUNZHUAN" Tag="CLASS_LUNZHUAN"/>
+		<Row Type="ABILITY_XINGDOU" Tag="CLASS_XINGDOU"/>
+	</TypeTags>
+	<UnitAbilities><!--能力描述定义-->
+		<Row UnitAbilityType="ABILITY_CHIHOU" Name="LOC_ABILITY_CHIHOU_NAME" Description="LOC_ABILITY_CHIHOU_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_YEXI" Name="LOC_ABILITY_YEXI_NAME" Description="LOC_ABILITY_YEXI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_FUXIN" Name="LOC_ABILITY_FUXIN_NAME" Description="LOC_ABILITY_FUXIN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_BAILI" Name="LOC_ABILITY_BAILI_NAME" Description="LOC_ABILITY_BAILI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SHENJI" Name="LOC_ABILITY_SHENJI_NAME" Description="LOC_ABILITY_SHENJI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_JIFU" Name="LOC_ABILITY_JIFU_NAME" Description="LOC_ABILITY_JIFU_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SHAO" Name="LOC_ABILITY_SHAO_NAME" Description="LOC_ABILITY_SHAO_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WUDU" Name="LOC_ABILITY_WUDU_NAME" Description="LOC_ABILITY_WUDU_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RENMA" Name="LOC_ABILITY_RENMA_NAME" Description="LOC_ABILITY_RENMA_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SUNBIN" Name="LOC_ABILITY_SUNBIN_NAME" Description="LOC_ABILITY_SUNBIN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_LIAOREN" Name="LOC_ABILITY_LIAOREN_NAME" Description="LOC_ABILITY_LIAOREN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_YULI" Name="LOC_ABILITY_YULI_NAME" Description="LOC_ABILITY_YULI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_QINWEI" Name="LOC_ABILITY_QINWEI_NAME" Description="LOC_ABILITY_QINWEI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WUDUI" Name="LOC_ABILITY_WUDUI_NAME" Description="LOC_ABILITY_WUDUI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SHUANG" Name="LOC_ABILITY_SHUANG_NAME" Description="LOC_ABILITY_SHUANG_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WUSHE" Name="LOC_ABILITY_WUSHE_NAME" Description="LOC_ABILITY_WUSHE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ZHONGZHA" Name="LOC_ABILITY_ZHONGZHA_NAME" Description="LOC_ABILITY_ZHONGZHA_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_LUNZHUAN" Name="LOC_ABILITY_LUNZHUAN_NAME" Description="LOC_ABILITY_LUNZHUAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_XINGDOU" Name="LOC_ABILITY_XINGDOU_NAME" Description="LOC_ABILITY_XINGDOU_DESCRIPTION"/>
+	</UnitAbilities>
+	<Units><!--单位定义-->
+		<Row UnitType="UNIT_SHAOTAN" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="4" Cost="30" AdvisorType="ADVISOR_GENERIC" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SHAOTAN_NAME" Description="LOC_UNIT_SHAOTAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" PromotionClass="PROMOTION_CLASS_RECON" Combat="5"/>
+		<Row UnitType="UNIT_BUSHOU" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="5" Cost="380" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_BUSHOU_NAME" Description="LOC_UNIT_BUSHOU_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="3" Combat="50"  PrereqTech="TECH_RIFLING"/>
+		<Row UnitType="UNIT_HUBEN" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="50" AdvisorType="ADVISOR_CONQUEST" BuildCharges="1" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_HUBEN_NAME" Description="LOC_UNIT_HUBEN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Combat="25" MandatoryObsoleteTech="TECH_GUNPOWDER"/>
+		<Row UnitType="UNIT_WEIWU" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="110" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_WEIWU_NAME" Description="LOC_UNIT_WEIWU_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="42" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON"/>
+		<Row UnitType="UNIT_SHENJI" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="220" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SHENJI_NAME" Description="LOC_UNIT_SHENJI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="52" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_GUNPOWDER" StrategicResource="RESOURCE_NITER"/>
+		<Row UnitType="UNIT_YOUJI" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="3" Cost="360" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_YOUJI_NAME" Description="LOC_UNIT_YOUJI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="4" Combat="60" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<Row UnitType="UNIT_JIEFANG" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="3" Cost="670" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_JIEFANG_NAME" Description="LOC_UNIT_JIEFANG_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="8" Combat="88" PrereqTech="TECH_SATELLITES"/>
+		<Row UnitType="UNIT_JIJI" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="55" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_JIJI_NAME" Description="LOC_UNIT_JIJI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="2" Combat="30" MandatoryObsoleteTech="TECH_COMPOSITES" PrereqTech="TECH_BRONZE_WORKING"/>
+		<Row UnitType="UNIT_MODAO" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="220" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MODAO_NAME" Description="LOC_UNIT_MODAO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="4" Combat="50" MandatoryObsoleteTech="TECH_COMPOSITES" PrereqTech="TECH_MILITARY_TACTICS"/>
+		<Row UnitType="UNIT_JUMP" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="350" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_JUMP_NAME" Description="LOC_UNIT_JUMP_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="3" Combat="65" PrereqTech="TECH_CHEMISTRY"/>
+		<Row UnitType="UNIT_RED" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="600" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_RED_NAME" Description="LOC_UNIT_RED_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="8" Combat="82" PrereqTech="TECH_COMPOSITES"/>
+		<Row UnitType="UNIT_QIWEN" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="4" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_QIWEN_NAME" Description="LOC_UNIT_QIWEN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" Maintenance="3" Combat="36" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_HORSEBACK_RIDING" StrategicResource="RESOURCE_HORSES"/>
+		<Row UnitType="UNIT_GUANNING" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="5" Cost="300" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_GUANNING_NAME" Description="LOC_UNIT_GUANNING_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" Maintenance="6" Combat="60" PrereqTech="TECH_MILITARY_SCIENCE" StrategicResource="RESOURCE_HORSES"/>
+		<Row UnitType="UNIT_WUZHI" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="4" Cost="640" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_WUZHI_NAME" Description="LOC_UNIT_WUZHI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" Maintenance="7" Combat="84" PrereqTech="TECH_SYNTHETIC_MATERIALS" CanTargetAir="TRUE"/>
+		<Row UnitType="UNIT_TIEYE" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="3" Cost="70" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TIEYE_NAME" Description="LOC_UNIT_TIEYE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="2" Combat="30" MandatoryObsoleteTech="TECH_COMBUSTION" PrereqTech="TECH_THE_WHEEL"/>
+		<Row UnitType="UNIT_XUAN" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="4" Cost="200" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_XUAN_NAME" Description="LOC_UNIT_XUAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="3" Combat="52" MandatoryObsoleteTech="TECH_COMPOSITES" PrereqTech="TECH_STIRRUPS" StrategicResource="RESOURCE_IRON"/>
+		<Row UnitType="UNIT_59TANK" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="4" Cost="420" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_59TANK_NAME" Description="LOC_UNIT_59TANK_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="5" Combat="75" PrereqTech="TECH_COMBUSTION" StrategicResource="RESOURCE_OIL"/>
+		<Row UnitType="UNIT_99ATANK" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="4" Cost="700" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_99ATANK_NAME" Description="LOC_UNIT_99ATANK_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="8" Combat="92" PrereqTech="TECH_COMPOSITES" StrategicResource="RESOURCE_URANIUM"/>
+		<!--远程单位-->
+		<Row UnitType="UNIT_SANGMU" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="40" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SANGMU_NAME" Description="LOC_UNIT_SANGMU_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Combat="5" MandatoryObsoleteTech="TECH_MACHINERY" RangedCombat="20" Range="1" Maintenance="1"/>
+		<Row UnitType="UNIT_FANQU" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="50" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_FANQU_NAME" Description="LOC_UNIT_FANQU_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="1" Combat="15" MandatoryObsoleteTech="TECH_BALLISTICS" RangedCombat="23" Range="2" PrereqTech="TECH_ARCHERY"/>
+		<Row UnitType="UNIT_SHENBI" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="220" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SHENBI_NAME" Description="LOC_UNIT_SHENBI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="5" Combat="30" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" RangedCombat="45" Range="3" PrereqTech="TECH_MACHINERY"/>
+		<Row UnitType="UNIT_SHENWEI" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="300" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SHENWEI_NAME" Description="LOC_UNIT_SHENWEI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="5" Combat="50" MandatoryObsoleteTech="TECH_TELECOMMUNICATIONS" RangedCombat="55" Range="2" PrereqTech="TECH_BALLISTICS"/>
+		<Row UnitType="UNIT_M85" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="560" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_M85_NAME" Description="LOC_UNIT_M85_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="6" Combat="65" RangedCombat="78" Range="1" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+		<Row UnitType="UNIT_PILI" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PILI_NAME" Description="LOC_UNIT_PILI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="1" Combat="23" MandatoryObsoleteTech="TECH_STEEL" Range="2" PrereqTech="TECH_ENGINEERING" Bombard="30"/>
+		<Row UnitType="UNIT_HONGYI" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="250" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_HONGYI_NAME" Description="LOC_UNIT_HONGYI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="4" Combat="43" MandatoryObsoleteTech="TECH_GUIDANCE_SYSTEMS" Range="2" PrereqTech="TECH_METAL_CASTING" StrategicResource="RESOURCE_NITER" Bombard="50"/>
+		<Row UnitType="UNIT_ERPAO" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="450" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ERPAO_NAME" Description="LOC_UNIT_ERPAO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="5" Combat="60" Range="2" PrereqTech="TECH_STEEL" Bombard="80"/>
+		<Row UnitType="UNIT_HUOJIANJUN" TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER" BaseMoves="2" Cost="700" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_HUOJIANJUN_NAME" Description="LOC_UNIT_HUOJIANJUN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="10" Combat="70" Range="4" PrereqTech="TECH_GUIDANCE_SYSTEMS" Bombard="95"/>
+
+	</Units>
+	<UnitUpgrades><!--单位升级定义-->
+		<!--Recon-->
+		<Row Unit="UNIT_SHAOTAN" UpgradeUnit="UNIT_BUSHOU"/>
+		<!--Melee-->
+		<Row Unit="UNIT_HUBEN" UpgradeUnit="UNIT_WEIWU"/>
+		<Row Unit="UNIT_WEIWU" UpgradeUnit="UNIT_SHENJI"/>
+		<Row Unit="UNIT_SHENJI" UpgradeUnit="UNIT_YOUJI"/>
+		<Row Unit="UNIT_JIJI" UpgradeUnit="UNIT_MODAO"/>
+		<Row Unit="UNIT_MODAO" UpgradeUnit="UNIT_JUMP"/>
+		<Row Unit="UNIT_JUMP" UpgradeUnit="UNIT_RED"/>
+		<Row Unit="UNIT_YOUJI" UpgradeUnit="UNIT_JIEFANG"/>
+		<!--Light Cavalry-->
+		<Row Unit="UNIT_QIWEN" UpgradeUnit="UNIT_GUANNING"/>
+		<Row Unit="UNIT_GUANNING" UpgradeUnit="UNIT_WUZHI"/>
+		<!--Heavy Cavalry-->
+		<Row Unit="UNIT_TIEYE" UpgradeUnit="UNIT_XUAN"/>
+		<Row Unit="UNIT_XUAN" UpgradeUnit="UNIT_59TANK"/>
+		<Row Unit="UNIT_59TANK" UpgradeUnit="UNIT_99ATANK"/>
+		<!--Ranged-->
+		<Row Unit="UNIT_SANGMU" UpgradeUnit="UNIT_FANQU"/>
+		<Row Unit="UNIT_FANQU" UpgradeUnit="UNIT_SHENBI"/>
+		<Row Unit="UNIT_SHENBI" UpgradeUnit="UNIT_SHENWEI"/>
+		<Row Unit="UNIT_SHENWEI" UpgradeUnit="UNIT_M85"/>
+		<!--Siege-->
+		<Row Unit="UNIT_PILI" UpgradeUnit="UNIT_HONGYI"/>
+		<Row Unit="UNIT_HONGYI" UpgradeUnit="UNIT_ERPAO"/>
+		<Row Unit="UNIT_ERPAO" UpgradeUnit="UNIT_HUOJIANJUN"/>
+
+	</UnitUpgrades>
+	<UnitAbilityModifiers><!--单位能力效果定义-->
+		<Row UnitAbilityType="ABILITY_CHIHOU" ModifierId="ESCORT_MOBILITY_SHARED_MOVEMENT" />
+		<Row UnitAbilityType="ABILITY_YEXI" ModifierId="DEPREDATION_BONUS_ADVANCED_PILLAGING" />
+		<!--<Row UnitAbilityType="ABILITY_FUXIN" ModifierId="COMBAT_BONUS" />-->
+		<Row UnitAbilityType="ABILITY_BAILI" ModifierId="ELITE_GUARD_ADDITIONAL_ATTACK" />
+		<Row UnitAbilityType="ABILITY_BAILI" ModifierId="MOD_MOVE_AFTER_ATTACKING" />
+		<Row UnitAbilityType="ABILITY_SHENJI" ModifierId="MUSTANG_MORE_EXPERIENCE" />
+		<Row UnitAbilityType="ABILITY_JIFU" ModifierId="CAPTURE_COMBAT_UNITS_AS_YOUJIS" />
+		<Row UnitAbilityType="ABILITY_SHAO" ModifierId="SAMURAI_NO_REDUCTION_DAMAGE" />
+		<Row UnitAbilityType="ABILITY_WUDU" ModifierId="URBAN_WARFARE_BONUS" />
+		<Row UnitAbilityType="ABILITY_RENMA" ModifierId="TANK_BUSTER_BONUS_VS_CAVALRY" />
+		<Row UnitAbilityType="ABILITY_SUNBIN" ModifierId="THRUST_BONUS_VS_MELEE" />
+		<Row UnitAbilityType="ABILITY_LIAOREN" ModifierId="BERSERKER_FASTER_ENEMY_TERRITORY" />
+		<Row UnitAbilityType="ABILITY_YULI" ModifierId="SQUARE_BONUS_SUPPORT_BONUS_MODIFIER" />
+		<Row UnitAbilityType="ABILITY_QINWEI" ModifierId="HETAIROI_GREAT_GENERAL_COMBAT_BONUS" />
+		<Row UnitAbilityType="ABILITY_QINWEI" ModifierId="HETAIROI_GREAT_GENERAL_POINTS" />
+		<Row UnitAbilityType="ABILITY_WUDUI" ModifierId="HETAIROI_FREE_PROMOTION" />
+		<!--远程能力-->
+		<Row UnitAbilityType="ABILITY_SHUANG" ModifierId="SCHILTRON_DEFENSE_BONUS_VS_MELEE"/>
+		<Row UnitAbilityType="ABILITY_WUSHE" ModifierId="FANQU_POST_COMBAT_CULTURE"/>
+		<Row UnitAbilityType="ABILITY_ZHONGZHA" ModifierId="SHENBI_BONUS_RANGE"/>
+		<Row UnitAbilityType="ABILITY_LUNZHUAN" ModifierId="ELITE_GUARD_ADDITIONAL_ATTACK"/>
+		<Row UnitAbilityType="ABILITY_LUNZHUAN" ModifierId="MOD_MOVE_AFTER_ATTACKING"/>
+		<Row UnitAbilityType="ABILITY_XINGDOU" ModifierId="URBAN_RAIDER_BONUS"/>
+	</UnitAbilityModifiers>
+	<Modifiers><!--特殊效果定义-->
+		<Row>
+			<ModifierId>CAPTURE_COMBAT_UNITS_AS_YOUJIS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_CAPTURE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FANQU_POST_COMBAT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SHENBI_BONUS_RANGE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
+			<SubjectRequirementSetId>COSSACK_PLOT_IS_OWNER_OR_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments><!--效果数值定义-->
+		<Row>
+			<ModifierId>CAPTURE_COMBAT_UNITS_AS_YOUJIS</ModifierId>
+			<Name>CanCapture</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAPTURE_COMBAT_UNITS_AS_YOUJIS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_YOUJI</Value>
+		</Row>
+		<Row>
+			<ModifierId>FANQU_POST_COMBAT_CULTURE</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>FANQU_POST_COMBAT_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHENBI_BONUS_RANGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings><!--效果描述定义-->
+		<Row ModifierId="CAPTURE_COMBAT_UNITS_AS_YOUJIS" Context="Preview" Text="LOC_ABILITY_JIFU_DESCRIPTION"/>
+	</ModifierStrings>
+</GameData>

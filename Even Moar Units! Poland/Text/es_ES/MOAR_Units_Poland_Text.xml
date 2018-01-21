@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_NAME" Language="es_ES">
+			<Text>Los elegidos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva de Polonia que reemplaza al mosquete. Se cura 10 puntos adicionales por turno.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UHLAN_NAME" Language="es_ES">
+			<Text>Ulano</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UHLAN_DESCRIPTION" Language="es_ES">
+			<Text> Unidad de caballería ligera exclusiva de Polonia que reemplaza a la caballeía. +100% de bonus de flanqueo. </Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="es_ES">
+			<Text>Tus unidades de caballería ligera y pesada ganan +5 [ICON_Strength] al luchar en colinas. Puede construir jenízaros.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION" Language="es_ES">
+			<Text>Tus apostoles pueden elegir libremente un ascenso en vez de ganar uno aleatorio. Puede construir jenízaros.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JANISSARY_NAME" Language="es_ES">
+			<Text>Jenízaros</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JANISSARY_DESCRIPTION" Language="es_ES">
+			<Text> Unidad de combate cuerpo a cuerpo del renacimiento que puede ser construida por el soberano de Preslav o Yerevan(Ereván). Se cura al destruir una unidad enemiga.</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_JANISSARY_NAME" Language="es_ES">
+			<Text>Devshirme</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

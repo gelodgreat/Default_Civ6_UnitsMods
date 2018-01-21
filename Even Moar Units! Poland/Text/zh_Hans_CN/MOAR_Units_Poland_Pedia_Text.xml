@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>选征步兵（Piechota wybraniecka）也被称为“封邑步兵”，是波兰-立陶宛联邦时期的一种非正规步兵组织形式。最早成立于1578年，由没有抵押和归公的皇家土地上那些“皇家”农民所组成（每20封邑招募一人）。被征召的农民会被免除赋税和劳役，但必须配备定制的蓝色制服和武器（包括火绳枪、剑和长柄斧），并在每个季度参加强制性的军事训练。一旦发生战事，他们要在第一时间前往队长所在之处进行报到，并从那一刻起领取等同于正规士兵的薪酬。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>这支部队参与了1577年至1582年间的立沃尼亚战争，之后就走上了下坡路。由于诸多原因造成的招募困难，在整个波兰皇冠领地和立陶宛公国境内，他们的总数始终没有超过2000人。到了17世纪下半叶，整支队伍的人数减少到了1000人。最终在1726年，以赋税代替服役的决议获得通过，彻底终结了这一军事组织形式。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“乌兰”是装备了骑枪、军刀和手枪的波兰轻骑兵。“乌兰”（Uhlan）一词在突厥鞑靼语中的原意为“勇敢的年轻战士”。第一支乌兰骑兵团成立于18世纪20年代的波兰-立陶宛联邦。这一头衔后来也被俄罗斯、普鲁士和奥地利军队用于称呼自己的枪骑兵团。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>乌兰骑兵通常穿着双排扣夹克，使用彩色的马鞍和饰带，头戴方顶枪骑兵帽（Czapka），这种帽子源自波兰帽的传统设计，军用版则更加制式化和正规化。他们的骑枪枪头之下往往附带一面燕尾状的小形旗帜。到了1776年，乌兰骑兵正式接替并继承了翼骑兵的地位和传统，成为了一支“国民骑兵”。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>耶尼切里（苏丹亲兵）在土耳其语中的含义为“新军”，他们是奥斯曼帝国的精锐部队，担任着苏丹的亲兵和近卫。他们与普通奴隶不同，能够获得正规的薪酬，但被禁止结婚和经商，必须全身心效忠于苏丹。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>这一军事组织通常被认为是在苏丹穆拉德一世（1362–89）在位期间首创，最初是由被卖作奴隶的基督教男童所组成的精锐军团，因严苛的纪律制度形成的内部凝聚力而闻名于世。他们与普通奴隶不同，能够获得正规的薪酬，但被禁止结婚和经商，必须全身心效忠于苏丹。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>到了十七世纪，随着奥斯曼帝国常规军规模的极速扩大，“耶尼切里”原本严格的征募制度也被放宽。平民会为了获得更好的社会经济地位运用金钱等手段加入其中。由此，军团逐渐丧失了原本的军事性，经历了一个所谓“文明化”的过程。到了1826年，苏丹马哈茂德二世强制解散了这支军队，在由此引发的“吉祥事变”之中，超过6000名军团士兵被处决。</Text>
+		</Row>				
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_JANISSARY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>德夫希尔梅（Devshirme）也被称为“血税”，其字面意思为“提拔”或“征募”，指的是奥斯曼帝国官方派遣军事官员选拔8至18岁的男孩，将其带离家庭为帝国提供服务的征丁制度。这一针对未成年男子的特种税收仅在帝国中的基督徒群体之中施行，被征募的男童会被强制改宗伊斯兰教。这样做主要是为了挑选和培养最优秀的儿童及青少年以担任帝国中的军事或民事公务人员——特别是“苏丹亲兵”。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

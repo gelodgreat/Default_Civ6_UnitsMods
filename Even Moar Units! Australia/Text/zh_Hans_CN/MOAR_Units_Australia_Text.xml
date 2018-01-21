@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_WOOMERA_NAME" Language="zh_Hans_CN">
+			<Text>原住民猎手</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WOOMERA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代投石兵的澳大利亚远古时代特色远程进攻单位,当进攻非城市区域时+6战斗力[ICON_Strength]且射程+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_NAME" Language="zh_Hans_CN">
+			<Text>特别空勤团</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代机械化步兵的澳大利亚信息时代特色近战单位,当在沙漠或平原时+5战斗力[ICON_Strength]且忽略控制区域。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_NAME" Language="zh_Hans_CN">
+			<Text>猎人</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与陆地单位战斗时+5 [ICON_Ranged] 远程攻击力。 当进攻非城市区域时+6战斗力[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="zh_Hans_CN">
+			<Text>当进攻非城市区域时+6战斗力[ICON_Strength]</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="zh_Hans_CN">
+			<Text>当位于沙漠或平原时+5战斗力[ICON_Strength]</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_NAME" Language="de_DE">
+			<Text>Spezialinfanterie</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CHOSEN_INFANTRY_DESCRIPTION" Language="de_DE">
+			<Text>Polnische Nahkampfeinheit, die den Musketier ersetzt. Heilt zusätzlich +10 Punkte pro Runde.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UHLAN_NAME" Language="de_DE">
+			<Text>Ulan</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UHLAN_DESCRIPTION" Language="de_DE">
+			<Text>Polnische leichte Kavallerieeinheit, die die Kavallerie ersetzt. +100% Flankierungsbonus.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION" Language="de_DE">
+			<Text>Leichte und schwere Kavallerieeinheiten erhalten +5 [ICON_Strength] Kampfstärke auf Hügelfeldern. Schaltet die Einheit Janitschar frei.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION" Language="de_DE">
+			<Text>Apostel können ihre Beförderung aussuchen, statt eine zufällige Beförderung zu erhalten. Schaltet die Einheit Janitschar frei.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JANISSARY_NAME" Language="de_DE">
+			<Text>Janitschar</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JANISSARY_DESCRIPTION" Language="de_DE">
+			<Text>Nahkampfeinheit der Renaissance, verfügbar mit Suzeränstatus von Jerewan oder Preslau. Heilt, beim Besiegen einer Feindeinheit.</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_JANISSARY_NAME" Language="de_DE">
+			<Text>Devshirme</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

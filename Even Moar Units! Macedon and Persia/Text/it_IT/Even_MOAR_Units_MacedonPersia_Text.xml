@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_BALLISTA_NAME" Language="it_IT">
+			<Text>Ballista</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BALLISTA_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva macedone che sostituisce la Catapulta. +17 [ICON_Strength] contro caselle prive di distretti e -10 [ICON_Strength] contro i distretti.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACEDONIAN_HETAIROI_NAME" Language="it_IT">
+			<Text>Etèro</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEZHETAIROS_NAME" Language="it_IT">
+			<Text>Pezetero</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PEZHETAIROS_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva macedone che sostituisce il Lanciere. Più potente e riceve +10 alla [ICON_Strength] Forza di combattimento contro le unità da mischia.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_WARSHIP_NAME" Language="it_IT">
+			<Text>Nave da guerra reale</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PERSIAN_WARSHIP_DESCRIPTION" Language="it_IT">
+			<Text>Unità navale esclusiva persiana che sostituisce la Galea. +5 alla [ICON_Strength] Forza di combattimento quando attacca. Fornisce anche +5 alla [ICON_Strength] Forza di combattimento alle unità terrestri adiacenti e +2 movimento se cominciano il turno in una casella adiacente.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPHRACT_NAME" Language="it_IT">
+			<Text>Catafratto</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CATAPHRACT_DESCRIPTION" Language="it_IT">
+			<Text>Unità di cavalleria pesante esclusiva persiana di epoca classica.</Text>
+		</Replace>
+		<Replace Tag="PLUS_7_WHEN_ATTACKING_NON_DISTRICT_BONUS_DESC" Language="it_IT">
+			<Text>+17 alla [ICON_Strength] Forza di combattimento contro caselle prive di distretti.</Text>
+		</Replace>
+		<Replace Tag="MINUS_7_WHEN_ATTACKING_DISTRICT_MALUS_DESC" Language="it_IT">
+			<Text>-10 alla [ICON_Strength] Forza di combattimento contro i distretti.</Text>
+		</Replace>
+		<Replace Tag="PLUS_10_VERSUS_MELEE_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+10 alla [ICON_Strength] Forza di combattimento contro le unità da mischia.</Text>
+		</Replace>
+		<Replace Tag="RECEIVE_PERSIAN_WARSHIP_COMBAT_STRENGTH_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento dalla Nave da guerra reale adiacente.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
+		

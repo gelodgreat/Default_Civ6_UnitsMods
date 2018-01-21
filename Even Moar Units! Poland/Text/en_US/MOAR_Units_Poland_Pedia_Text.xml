@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_1">
+			<Text>Chosen Infantry also known as piechota łanowa (łan's infantry) was a type of an infantry formation in the Polish–Lithuanian Commonwealth. Formed in 1578. Consisted of "royal" peasants (one from every 20 łans) from not charged (not under frequent lien, etc.) and revendicated royal lands.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_2">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CHOSEN_INFANTRY_CHAPTER_HISTORY_PARA_3">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_1">
+			<Text>Uhlans were Polish light cavalry armed with lances, sabres and pistols. The title was later used by lancer regiments in the Russian, Prussian, and Austrian armies. Uhlans typically wore a double-breasted jacket (kurtka) with a coloured panel (plastron) at the front, a coloured sash, and a square-topped Polish lancer cap (rogatywka, also called czapka). This cap or cavalry helmet was derived from a traditional design of Polish cap, made more formal and stylised for military use. Their lances usually had small, swallow-tailed flags (known as the lance pennon) just below the spearhead.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_2">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UHLAN_CHAPTER_HISTORY_PARA_3">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_1">
+			<Text>The Janissaries (meaning "new soldier") were elite infantry units that formed the Ottoman Sultan's household troops and bodyguards. The corps was most likely established during the reign of Murad I (1362–89).They began as an elite corps of slaves made up of conscripted young Christian boys, and became famed for internal cohesion cemented by strict discipline and order. Unlike typical slaves, they were paid regular salaries. Forbidden to marry or engage in trade, their complete loyalty to the Sultan was expected. By the seventeenth century, due to a dramatic increase in the size of the Ottoman standing army, the corps' initially strict recruitment policy was relaxed. Civilians bought their way into the corps in order to benefit from the improved socioeconomic status it conferred upon them. Consequently, the corps gradually lost its military character, undergoing a process which has been described as 'civilianization'. The corps was abolished by Sultan Mahmud II in 1826 in the Auspicious Incident in which 6,000 or more were executed.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_2">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JANISSARY_CHAPTER_HISTORY_PARA_3">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_JANISSARY_CHAPTER_HISTORY_PARA_1">
+			<Text>Devshirme (literally "lifting" or "collecting") was chiefly the practice whereby the Ottoman Empire sent military officers to take boys, ages 8 to 18, from their families in order that they be raised to serve the state. This tax of sons was imposed only on the Christian subjects of the empire. The boys were then converted to Islam with the primary objective of selecting and training the ablest children and teenagers for the military or civil service of the empire, notably into the Janissaries.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

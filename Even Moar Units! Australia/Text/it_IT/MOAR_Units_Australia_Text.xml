@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_WOOMERA_NAME" Language="it_IT">
+			<Text>Lanciatore Woomera</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WOOMERA_DESCRIPTION" Language="it_IT">
+			<Text>Unità a distanza esclusiva australiana che sostituisce il Fromboliere. Ha raggio di tiro pari a 2 e riceve gratuitamente la promozione Cacciatore (+6 alla [ICON_Strength] Forza di combattimento quando attacca caselle prive di distretti).</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_NAME" Language="it_IT">
+			<Text>S.A.S.R.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva australiana che sostituisce la Fanteria Meccanizzata. Ignora la zona di controllo ed ha +5 alla [ICON_Strength] Forza di combattimento quando combatte in caselle di Deserto o Pianura.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_NAME" Language="it_IT">
+			<Text>Cacciatore</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza a distanza contro unità terrestri e +5 alla [ICON_Strength] Forza di combattimento quando attacca caselle prive di distretti.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento quando attacca caselle prive di distretti.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="it_IT">
+			<Text>+5 alla [ICON_Strength] Forza di combattimento in caselle di Deserto o Pianura.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

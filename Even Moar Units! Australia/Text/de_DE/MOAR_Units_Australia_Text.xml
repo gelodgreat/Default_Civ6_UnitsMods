@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_WOOMERA_NAME" Language="de_DE">
+			<Text>Woomera Krieger</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WOOMERA_DESCRIPTION" Language="de_DE">
+			<Text>Australische Fernkampfeinheit, die den Schleuderkämpfer ersetzt. Er besitzt eine Reichweite von 2 und erhält die Jäger-Beförderung (+6 [ICON_Strength] Kampfstärke beim Angriff auf Nicht-Bezirk-Felder.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_NAME" Language="de_DE">
+			<Text>S.A.S.R.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_DESCRIPTION" Language="de_DE">
+			<Text>Australische Nahkampfeinheit, die die mechanisierte Infanterie ersetzt. Ignoriert gegnerische Kontrollzonen und erhält +5 [ICON_Strength] Kampfstärke auf Wüsten und Ebenen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_NAME" Language="de_DE">
+			<Text>Jäger</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="de_DE">
+			<Text>+5 [ICON_Ranged] Fernkampfstärke gegen Landeinheiten und +5 [ICON_Strength] Kampfstärke beim Angriff auf Nicht-Bezirk-Felder.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="de_DE">
+			<Text>+5 [ICON_Strength] Kampfstärke beim Angriff auf Nicht-Bezirk-Felder.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="de_DE">
+			<Text>+5 [ICON_Strength] Kampfstärke auf Wüsten und Ebenen.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

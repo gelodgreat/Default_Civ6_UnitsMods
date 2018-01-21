@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_WOOMERA_NAME" Language="en_US">
+			<Text>Woomera Warrior</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WOOMERA_DESCRIPTION" Language="en_US">
+			<Text>Australian Slinger replacement that has Range 2 and receives free Hunter promotion (+6 [ICON_Strength] Combat Strength when attacking non-District tiles).</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_NAME" Language="en_US">
+			<Text>S.A.S.R.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SASR_DESCRIPTION" Language="en_US">
+			<Text>Strong, mobile Australian Mechanized Infantry replacement that ignores Zone of Control and has +5 [ICON_Strength] Combat Strength when fighting on Desert or Plains.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_NAME" Language="en_US">
+			<Text>Hunter</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HUNTER_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Ranged] Ranged Strength vs. land units and +5 [ICON_Strength] Combat Strength when attacking non-District tiles.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_COMBAT_STRENGTH_NON_DISTRICT_DESC" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when attacking non-District tiles.</Text>
+		</Replace>
+		<Replace Tag="PLUS_5_DESERT_PLAINS_COMBAT_BONUS_DESC" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength in Desert or Plains.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
